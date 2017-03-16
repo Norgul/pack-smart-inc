@@ -1,0 +1,169 @@
+#jobAd #jobAdHeader #jobAdHeaderText b {
+    display: inline-block;
+    padding: 0 !important
+}
+
+#jobAd #jobAdHeader h1 {
+    font-size: 1rem !important
+}
+
+#jobAd #jobAdHeader #title {
+    padding: 0 !important
+}
+
+#jobAd #jobAdHeader #title h1 {
+    font-size: 1.8rem !important
+}
+
+.footer, .header, .header__sub, .mobilenav, .mobilenav__level2, .hamburger__menu, .hamburger-mobile__menu, .form, .uk-button, .button__group, .uk-button-razor, .uk-button-primary, .link {
+    display: none
+}
+
+@page :blank {
+    display: none
+}
+
+* {
+    padding: 5pt 5pt 0 5pt !important;
+    margin: 0 !important;
+    position: static !important
+}
+
+.uk-grid.grid--bottom {
+    position: inherit
+}
+
+.uk-slidenav.uk-slidenav-previous {
+    display: none
+}
+
+.uk-slidenav.uk-slidenav-next {
+    display: none
+}
+
+.slideshow--high, .slideshow--high .uk-slideshow, .slideshow--high .uk-slideshow li {
+    min-height: 300px !important;
+    max-height: 300px !important
+}
+
+.slideshow--small, .slideshow--small .uk-slideshow, .slideshow--small .uk-slideshow li {
+    min-height: 120px !important;
+    max-height: 120px !important
+}
+
+.slideshow--small .uk-slideshow .sectionhotspots, .slideshow--small .uk-slideshow .sectionhotspots .section__inside {
+    height: auto !important;
+    min-height: 0px !important
+}
+
+.section__inside {
+    padding: 0
+}
+
+.box--transInner {
+    padding: 0
+}
+
+.discoverybgimage {
+    display: none
+}
+
+.section--green li {
+    list-style-type: none;
+    width: 120px !important;
+    display: inline-block;
+    left: auto !important;
+    font-size: 6px;
+    line-height: 5px
+}
+
+.ul.uk-slider {
+    padding: 0 20px;
+    min-height: auto !important
+}
+
+.slideshow--high, .slideshow--high .uk-slideshow, .slideshow--high .uk-slideshow li {
+    min-height: auto !important;
+    max-height: auto !important
+}
+
+.sectionhotspots.high {
+    min-height: auto !important
+}
+
+.slideshow--high .uk-slideshow li {
+    min-height: auto !important;
+    max-height: auto !important
+}
+
+.uk-margin-top {
+    margin: 0
+}
+
+.uk-margin-bottom {
+    margin: 0
+}
+
+.uk-margin-large-top {
+    margin: 0
+}
+
+.uk-margin-large-bottom {
+    margin: 0
+}
+
+.padding-bottom {
+    padding: 0
+}
+
+.uk-grid.grid--intended--left {
+    padding-top: 0
+}
+
+.uk-grid.grid--intended--right {
+    padding-top: 0
+}
+
+h1, h2, h3, h4, h5 {
+    page-break-after: avoid
+}
+
+img {
+    page-break-before: auto;
+    page-break-after: auto;
+    page-break-inside: avoid
+}
+
+p, .paragraph {
+    page-break-before: auto;
+    page-break-after: auto;
+    page-break-inside: avoid
+}
+
+table, figure {
+    page-break-inside: avoid
+}
+
+h1 {
+    font-size: 36px !important
+}
+
+h2 {
+    font-size: 30px !important
+}
+
+h3 {
+    font-size: 25px !important
+}
+
+h4 {
+    font-size: 22px !important
+}
+
+h4 {
+    font-size: 20px !important
+}
+
+#ptr {
+    display: none
+}

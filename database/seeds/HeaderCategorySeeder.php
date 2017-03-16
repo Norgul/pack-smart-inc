@@ -26,14 +26,14 @@ class HeaderCategorySeeder extends Seeder
             ['name' => 'Purchasing', 'parent_id' => 1, 'url_slug' => str_slug('Purchasing')],
 
             // 2.
-            ['name' => 'All Technologies', 'parent_id' => 2, 'url_slug' => str_slug('Overview')],
+            ['name' => 'All Technologies', 'parent_id' => 2, 'url_slug' => str_slug('All Technologies')],
             ['name' => 'Accuracy Affixing & Alignment', 'parent_id' => 2, 'url_slug' => str_slug('Accuracy Affixing & Alignment')],
             ['name' => 'Brand Protection', 'parent_id' => 2, 'url_slug' => str_slug('Brand Protection')],
             ['name' => 'Digital Printing', 'parent_id' => 2, 'url_slug' => str_slug('Digital Printing')],
             ['name' => 'Feeding & Inserting', 'parent_id' => 2, 'url_slug' => str_slug('Feeding & Inserting')],
 
             // 3.
-            ['name' => 'All Solutions', 'parent_id' => 3, 'url_slug' => str_slug('Overview')],
+            ['name' => 'All Solutions', 'parent_id' => 3, 'url_slug' => str_slug('All Solutions')],
             ['name' => 'Card Personalization', 'parent_id' => 3, 'url_slug' => str_slug('Card Personalization')],
             ['name' => 'Rigid Window Packaging', 'parent_id' => 3, 'url_slug' => str_slug('Rigid Window Packaging')],
             ['name' => 'Secure Packaging', 'parent_id' => 3, 'url_slug' => str_slug('Secure Packaging')],

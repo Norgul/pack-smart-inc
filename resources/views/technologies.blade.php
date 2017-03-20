@@ -3,9 +3,9 @@
 
 @section('content')
 
-    @include('partials.sections.cartwheel') {{-- kopirati i modificirati --}}
+    @include('partials.sections.technologies_cartwheel')
     @include('partials.sections.technologies_tab_selection')
-    @include('partials.sections.careers') {{-- kopirati i modificirati --}}
+    @include('partials.sections.technologies_careers')	
     @include('partials.sections.news')
     @include('partials.sections.contact')
     @include('partials.sections.location')

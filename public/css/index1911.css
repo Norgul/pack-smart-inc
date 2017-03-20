@@ -13294,18 +13294,49 @@ strong {
 
 .row{
     height: 72px;
-    background-color: #eee;
-    background-color: rgba(86,61,124,.15);
     border: 1px solid #ddd;
     border: 1px solid rgba(86,61,124,.2);
-    margin-right: 0px; 
-    margin-left: 0px; 
+    margin-right: 0px;
+    margin-left: 0px;
 }
 .row [class*="col-"] {
+    text-transform: uppercase;
+    text-align: center;
     display: table-cell;
     height: inherit;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
     border-right: 1px solid #ddd;
     border-right: 1px solid rgba(86,61,124,.2);
+}
+.row a{
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+.row a:hover{
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-right: 1px solid #ddd;
+  border-right: 1px solid rgba(86,61,124,.2);
+  border-top: 3px solid #d31f26;
+  border-bottom: 2px solid #fff;
+}
+.row a:focus{
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-right: 1px solid #ddd;
+  border-right: 1px solid rgba(86,61,124,.2);
+  border-top: 3px solid #d31f26;
+  border-bottom: 2px solid #fff;
+}
+.techno{
+  background-color: #d31f26;
+  height: 46px;
+}
+.tech{
+  margin-left: 30px;
+  margin-top: 3px;
+  width: 300px;
 }

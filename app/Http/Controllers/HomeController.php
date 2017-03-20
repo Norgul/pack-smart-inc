@@ -29,4 +29,11 @@ class HomeController extends Controller
         $header_categories = HeaderCategory::all();
         return view('index', compact('header_categories', 'main_menu_categories'));
     }
+
+    public function technologies()
+    {
+        $main_menu_categories = MainMenuCategory::all();
+        $header_categories = HeaderCategory::all();
+        return view('technologies', compact('header_categories', 'main_menu_categories'));
+    }
 }

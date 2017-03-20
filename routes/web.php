@@ -17,6 +17,7 @@ Auth::routes();
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
 Route::get('/office-locations', 'OfficeLocationsController@index');
+Route::get('/technologies', 'HomeController@technologies');
 /*
  * Header routes
  */
@@ -66,3 +67,4 @@ Route::get('/sitemap', function () {
 });
 
 // END of footer routes
+

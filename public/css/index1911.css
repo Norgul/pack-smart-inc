@@ -13315,21 +13315,18 @@ strong {
   height: inherit;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Helvetica Neue LT Std';
-  font-weight:100;
+  font-family: 'HelveticaNeueW02-45Ligh';
   color: #000;
   display: table-cell;
   vertical-align: middle;
 }
 .my-box:hover{
   color: #000;
-  font-weight: bold;
   text-decoration: none;
   border-top: 3px solid #d31f26;
 }
 .my-box:focus{
   color: #000;
-  font-weight: bold;
   text-decoration: none;
   border-top: 3px solid #d31f26;
 }

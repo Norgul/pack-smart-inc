@@ -15,5 +15,6 @@ class DatabaseSeeder extends Seeder
         $this->call(HeaderCategorySeeder::class);
         $this->call(MainMenuCategorySeeder::class);
         $this->call(OfficeLocationSeeder::class);
+        $this->call(TechnologiesTabSeeder::class);
     }
 }

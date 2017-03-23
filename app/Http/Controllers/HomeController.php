@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\HeaderCategory;
 use App\MainMenuCategory;
+use App\TechnologiesTab;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -34,6 +35,7 @@ class HomeController extends Controller
     {
         $main_menu_categories = MainMenuCategory::all();
         $header_categories = HeaderCategory::all();
-        return view('technologies', compact('header_categories', 'main_menu_categories'));
+        $technologies_tabs = TechnologiesTab::all();
+        return view('technologies', compact('header_categories', 'main_menu_categories', 'technologies_tabs'));
     }
 }

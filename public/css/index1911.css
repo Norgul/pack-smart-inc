@@ -11466,7 +11466,7 @@ div[data-uk-locations] > .uk-width-medium-1-2.uk-width-large-2-3.uk-hidden-small
 }
 
 .navi li .navi-item {
-    min-height: 66px
+    min-height: 94px
 }
 
 .navi--main--item {
@@ -11502,7 +11502,6 @@ div[data-uk-locations] > .uk-width-medium-1-2.uk-width-large-2-3.uk-hidden-small
 
 .navi--top li a {
     background-color: #d31f26;
-    height: inherit;
     color: #FFF;
     display: block;
     padding: 13px 18px 14px 18px;

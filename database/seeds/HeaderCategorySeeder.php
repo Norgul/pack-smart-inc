@@ -26,7 +26,7 @@ class HeaderCategorySeeder extends Seeder
             ['name' => 'Purchasing', 'parent_id' => 1, 'url_slug' => str_slug('Purchasing')],
 
             // 2.
-            ['name' => 'All Technologies', 'parent_id' => 2, 'url_slug' => str_slug('All Technologies')],
+            ['name' => 'All Technologies', 'parent_id' => 2, 'url_slug' => str_slug(' ')],
             ['name' => 'Accuracy Affixing & Alignment', 'parent_id' => 2, 'url_slug' => str_slug('Accuracy Affixing & Alignment')],
             ['name' => 'Brand Protection', 'parent_id' => 2, 'url_slug' => str_slug('Brand Protection')],
             ['name' => 'Digital Printing', 'parent_id' => 2, 'url_slug' => str_slug('Digital Printing')],

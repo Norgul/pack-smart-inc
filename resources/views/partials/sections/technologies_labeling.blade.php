@@ -1,6 +1,6 @@
 <section id="section-technologies_labeling" class="section section--indented">
     <div class="uk-grid uk-grid-collapse uk-grid-width-1-3 image--infinite-left-1-3">
-        <div style="background-image:url('{{asset('images/technologies_labeling.png')}}');background-repeat: no-repeat;    
+        <div style="background-image:url('{{asset('images/technologies_labeling.png')}}');background-repeat: no-repeat;
     background-size: contain;">
         </div>
     </div>
@@ -9,7 +9,7 @@
             <div class="uk-grid">
                 <div class="  uk-width-medium-1-3 uk-width-large-1-3 uk-hidden-small">&nbsp;</div>
                 <div class="  uk-width-medium-2-3 uk-width-large-2-3">
-                    <h2>Technologies labeling</h2>
+                    <h2 class="technologies-tab-h2">Technologies labeling</h2>
                     &nbsp;
                     <div class="uk-grid" style="margin-bottom: 50px; ">
                         <p class="paragraph paragraph--muted">

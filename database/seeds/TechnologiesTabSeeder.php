@@ -43,11 +43,6 @@ class TechnologiesTabSeeder extends Seeder
              ['name' => 'Unknown', 'url_slug' => str_slug('Unknown')],
              ['name' => 'Unknown', 'url_slug' => str_slug('Unknown')],
              ['name' => 'Unknown', 'url_slug' => str_slug('Unknown')],
-             ['name' => 'Unknown', 'url_slug' => str_slug('Unknown')],
-             ['name' => 'Unknown', 'url_slug' => str_slug('Unknown')],
-             ['name' => 'Unknown', 'url_slug' => str_slug('Unknown')],
-             ['name' => 'Unknown', 'url_slug' => str_slug('Unknown')],
-             ['name' => 'Unknown', 'url_slug' => str_slug('Unknown')],
          ]);
      }
 }

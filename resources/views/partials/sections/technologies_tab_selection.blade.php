@@ -14,7 +14,7 @@
 	<div class="my-container">
 		<div class="tabbable page-tabs">
 		<nav class="nav">
-				<div class="uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-5">
+				<div class="uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-6">
 					@foreach($technologies_tabs as $tab)
 						<div class="my-box-container">
 							<a class="nav-link uk-panel my-box

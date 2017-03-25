@@ -147,5 +147,3 @@
         @endforeach
     </div>
 </div>
-
-@include('partials.choose_language')

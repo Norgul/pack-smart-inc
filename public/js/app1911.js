@@ -11364,6 +11364,7 @@
 
                         phone_icon = "<i class='uk-icon-phone icon--small icon--inline'></i>",
                         fax_icon = '<i class="uk-icon-fax icon--small icon--inline"></i>',
+                        email_icon = '<i class="uk-icon-paper-plane icon--small icon--inline"></i>',
 
                         // find div elements
                         address = map_html_div.find("#locationsAddress"),
@@ -11382,7 +11383,7 @@
                         map_object.street ? street.text(map_object.street) : street.remove(),
                         map_object.phone ? phone.html(phone_icon + map_object.phone) : phone.remove(),
                         map_object.fax ? fax.html(fax_icon + map_object.fax) : fax.remove(),
-                        map_object.email ? email.html('<a href="mailto:' + map_object.email + '">' + map_object.email + "</a>") : email.remove(),
+                        map_object.email ? email.html('<a href="mailto:' + map_object.email + '">' + email_icon + map_object.email + "</a>") : email.remove(),
                         map_object.country ? country.text(map_object.country) : country.remove(),
                         map_object.zipCode ? zip.text(map_object["zip-code"]) : zip.remove(),
                         sep = "" !== map_object["zip-code"] ? " " : "",

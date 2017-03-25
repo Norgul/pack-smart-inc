@@ -46,8 +46,11 @@
                     </div>
                     <div class="box  box--transGreen box--bottom box--clip ">
                         <div class="box--transInner">
-                            <h1>Modular Design Options <br> A Solution For Every Problem</h1>
+                          <h2>Over 100 Proven Solutions <br>for Every Problem</h2>
 
+                          <div class="paragraph  paragraph--default  uk-margin-top">
+                              <p>Modular Design Concept built for speed and versatility</p>
+                          </div>
                             <div class="box--transGreen--addition">
                                 <div class="box--transGreen--addition__inner">
                                     <div class="box--transGreen--addition__content--rotated"></div>

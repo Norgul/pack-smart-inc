@@ -32,7 +32,7 @@
                         <div class="uk-accordion-title">
                             <h3 id="locationAccordionHeader" class="header locations__accordion_header">
                                 Pack-Smart Inc.</h3>
-                            <i class="uk-icon-button"></i>
+                                <i class="uk-icon-paper-plane-o"></i>
                         </div>
                     </div>
 

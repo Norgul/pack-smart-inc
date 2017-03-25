@@ -11359,7 +11359,7 @@
                         map_html_div.find("uk-accordion-content").removeData("wrapper"),
                     b.id == map_object.id && (e = f), map_html_div.find(".uk-accordion-title").on("click", function () {
                         for (var a = j(".svg-location"), b = 0; b < a.length; b++)
-                            j(a[b]).attr("id") == j(this).data("id") ? j(a[b]).attr("fill", "#ffffff") : j(a[b]).attr("fill", "#53AD31")
+                            j(a[b]).attr("id") == j(this).data("id") ? j(a[b]).attr("fill", "#ffffff") : j(a[b]).attr("fill", "#d31f26")
                     }),
 
                         phone_icon = "<i class='uk-icon-phone icon--small icon--inline'></i>",
@@ -11443,7 +11443,7 @@
             var a = j(".svg-location");
             a.click(function () {
                 if ("#ffffff" != j(this).attr("fill")) {
-                    for (var b = 0; b < a.length; b++)j("#" + a[b].id).attr("fill", "#53AD31");
+                    for (var b = 0; b < a.length; b++)j("#" + a[b].id).attr("fill", "#d31f26");
                     j(this).attr("fill", "#ffffff"), setLocationData(j(this).attr("countryid"), j(this).attr("id"), !0, !1)
                 };
             });

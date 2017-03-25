@@ -61,18 +61,18 @@
         <li>
             <style type="text/css" scoped>
                 #bgimghotspot-674951 {
-                    background-image: url('{{asset('images/technologies_slider_2.jpg')}}');
+                    background-image: url('{{asset('images/technologies_slider_3.jpg')}}');
                 }
 
                 @media (max-width: 1035px) {
                     #bgimghotspot-674951 {
-                        background-image: url('{{asset('images/technologies_slider_2.jpg')}}');
+                        background-image: url('{{asset('images/technologies_slider_3.jpg')}}');
                     }
                 }
 
                 @media (max-width: 375px) {
                     #bgimghotspot-674951 {
-                        background-image: url('{{asset('images/technologies_slider_2.jpg')}}');
+                        background-image: url('{{asset('images/technologies_slider_3.jpg')}}');
                     }
                 }
             </style>
@@ -87,14 +87,14 @@
                         <div class="box box--bottom">
                             <div class="box--transInner">
                                 <div class="paragraph paragraph--default">
-                                    <p style="color: white;">Solutions with Purpose</p>
+                                    <p>Outstanding Performance. Proven Results.</p>
                                 </div>
-                                <h1 class="heading-white">Inspired by challenge. Driven by solution.</h1>
+                                <h1>Tailored Solutions to Your Industry Needs</h1>
 
                                 <div class="paragraph uk-margin-large-bottom">
                                 </div>
                                 <div class="button__group">
-                                    <a href="{{url('not-set-yet')}}"
+                                    <a href="{{url('about/innovations')}}"
                                        class="uk-button uk-button-razor uk-button-primary ">
                                         <span class="button__label"><span>Learn More</span></span>
                                     </a>
@@ -113,18 +113,18 @@
         <li>
             <style type="text/css" scoped>
                 #bgimghotspot-674946 {
-                    background-image: url('{{asset('images/technologies_slider_3.jpg')}}');
+                    background-image: url('{{asset('images/technologies_slider_2.jpg')}}');
                 }
 
                 @media (max-width: 1035px) {
                     #bgimghotspot-674946 {
-                        background-image: url('{{asset('images/technologies_slider_3.jpg')}}');
+                        background-image: url('{{asset('images/technologies_slider_2.jpg')}}');
                     }
                 }
 
                 @media (max-width: 375px) {
                     #bgimghotspot-674946 {
-                        background-image: url('{{asset('images/technologies_slider_3.jpg')}}');
+                        background-image: url('{{asset('images/technologies_slider_2.jpg')}}');
                     }
                 }
             </style>
@@ -134,18 +134,18 @@
                         <div class="box  box--bottom ">
                             <div class="box--transInner">
                                 <div class="paragraph paragraph--default">
-                                    <p>Exceed expectations</p>
+                                    <p>Be Fast. Be First</p>
                                 </div>
-                                <h1>Stay Relevant in your market</h1>
+                                <h1>Integrate Highest Performance In Your Process</h1>
 
                                 <div class="paragraph  uk-margin-large-bottom"></div>
                                 <div class="button__group">
                                     <a data-uk-lightbox data-lightbox-type="iframe"
-                                       href="https://youtu.be/JTmDFtexziE"
+                                       href="https://www.youtube.com/watch?v=-x7hgd6E9tc"
                                        class="uk-button uk-button-razor uk-button-primary ">
                                         <span class="button__label"><span>Watch Video</span></span>
                                     </a>
-                                    <a href="{{url('not-set-yet')}}"
+                                    <a href="{{url('about/innovations')}}"
                                        class="uk-button uk-button-razor   button--default ">
                                         <span class="button__label"><span>Learn More</span></span>
                                     </a>
@@ -168,4 +168,3 @@
         <li data-uk-slideshow-item="2"><p class="dotnav__link active"><a href="#"></a></p></li>
     </ul>
 </div>
-

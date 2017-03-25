@@ -22,22 +22,11 @@ Route::get('/technologies', 'HomeController@technologies');
  * Header routes
  */
 Route::get('/active-intelligent', 'HomeController@index');
-
-Route::get('/card-financial', function () {
-    return view('index');
-});
-Route::get('/healthcare-life', function () {
-    return view('index');
-});
-Route::get('/premium-branded', function () {
-    return view('index');
-});
-Route::get('/specialty-printing', function () {
-    return view('index');
-});
-Route::get('/technical-services', function () {
-    return view('index');
-});
+Route::get('/card-financial', 'HomeController@index');
+Route::get('/healthcare-life', 'HomeController@index');
+Route::get('/premium-branded', 'HomeController@index');
+Route::get('/specialty-printing', 'HomeController@index');
+Route::get('/technical-services', 'HomeController@index');
 
 Route::get('/why-pack-smart', function () {
     return view('index');
@@ -51,6 +40,13 @@ Route::get('/careers', function () {
     return view('index');
 });
 // END of header routes
+
+/*
+Hamburger menu routes
+*/
+Route::get('/about/innovations', function () {
+    return "This will one day be innovations page";
+});
 
 
 /*
@@ -67,4 +63,3 @@ Route::get('/sitemap', function () {
 });
 
 // END of footer routes
-

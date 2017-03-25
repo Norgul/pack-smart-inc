@@ -2990,7 +2990,7 @@ select.uk-form-width-mini {
 
 .uk-button-primary:hover,
 .uk-button-primary:focus {
-    background-color: #4da12e;
+    background-color: #ad1b21;
     color: #fff
 }
 
@@ -9074,8 +9074,8 @@ a.uk-thumbnail:focus {
 
 .uk-button-razor.uk-button-primary:hover:before,
 .uk-button-razor.uk-button-primary:hover:after {
-    border-top-color: #4da12e;
-    border-bottom-color: #4da12e
+    border-top-color: #ad1b21;
+    border-bottom-color: #ad1b21
 }
 
 @media (max-width: 480px) {

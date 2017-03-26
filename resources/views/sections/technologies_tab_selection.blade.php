@@ -50,7 +50,7 @@
 					active
 				@endif
 				" id="{{$tab->url_slug}}">
-				@include('partials.sections.technologies_labeling', ['title' => $tab->name])
+				@include('sections.technologies_labeling', ['title' => $tab->name])
 			</div>
 		@endforeach
 	</div>

@@ -4,15 +4,18 @@
             <div style="background-image: url('{{asset('images/redbg-left.png')}}')"></div>
         </div>
     </div>
+
     <div class="uk-container uk-container-center">
         <div class="section__inside">
             <div class="uk-grid">
-                <div class="  uk-width-medium-1-3 uk-width-large-1-3 uk-hidden-small">&nbsp;</div>
-                <div class="  uk-width-medium-2-3 uk-width-large-2-3">
+                <div class="uk-width-medium-1-3 uk-width-large-1-3 uk-hidden-small">&nbsp;</div>
+                <div class="uk-width-medium-2-3 uk-width-large-2-3">
                     <h2>Modular Designs</h2>
+
                     <h3 style="color: white;">
                         Our technologies are redefining speed and flexibility in automated packaging industry.
                     </h3>
+
                     <div class="uk-grid">
                         <div class="  uk-width-medium-1-2 uk-width-large-1-2">
                             <div class="paragraph  paragraph--default  uk-margin-top">
@@ -34,7 +37,7 @@
                     <div class="button__group">
                         <a href="{{url('/careers')}}"
                            class="uk-button uk-button-razor uk-button-primary">
-                            <span class="button__label"><span>more</span></span>
+                            <span class="button__label">more</span>
                         </a>
                     </div>
                 </div>

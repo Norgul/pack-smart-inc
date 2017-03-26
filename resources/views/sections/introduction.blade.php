@@ -1,8 +1,6 @@
 <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true, autoplayInterval:4000}">
     <ul class="uk-slideshow ">
         <li>
-            <style type="text/css" scoped>
-            </style>
             <section id="section-675276" class="section  section--default">
                 <div class="section__inside">
                     <div class="uk-grid">
@@ -23,7 +21,6 @@
                                             chains – Pack-Smart ePedigree Solutions provide assurance to Brand Owners
                                             through highly integrated performance brand protection technologies:
                                             <br/></p>
-
                                     </div>
                                 </div>
                                 <div class="  uk-width-medium-1-2 uk-width-large-1-2">
@@ -42,9 +39,9 @@
 
                                 <div class="uk-width-medium-1-1 uk-width-large-1-1 marginBottom50">
                                     <div class="button__group">
-                                        <a href="industrial-automation/industrial-automation.html"
+                                        <a href="{{url('not-set-yet')}}"
                                            class="uk-button uk-button-razor   uk-button-primary ">
-                                            <span class="button__label"><span>more</span></span>
+                                            <span class="button__label">more</span>
                                         </a>
                                     </div>
                                 </div>
@@ -62,8 +59,6 @@
             </section>
         </li>
         <li>
-            <style type="text/css" scoped>
-            </style>
             <section id="section-675275" class="section  section--default">
                 <div class="section__inside">
                     <div class="uk-grid">
@@ -97,9 +92,9 @@
                                 </div>
                                 <div class=" uk-width-1-1">
                                     <div class="button__group">
-                                        <a href="banking-automation/banking-automation.html"
+                                        <a href="{{url('not-set-yet')}}"
                                            class="uk-button uk-button-razor   uk-button-primary ">
-                                            <span class="button__label"><span>more</span></span>
+                                            <span class="button__label">more</span>
                                         </a>
                                     </div>
                                 </div>
@@ -117,8 +112,6 @@
             </section>
         </li>
         <li>
-            <style type="text/css" scoped>
-            </style>
             <section id="section-675277" class="section  section--default">
                 <div class="section__inside">
                     <div class="uk-grid">
@@ -147,9 +140,9 @@
                                 </div>
                                 <div class=" uk-width-1-1">
                                     <div class="button__group">
-                                        <a href="logistics-solutions/logistics-solutions.html"
+                                        <a href="{{url('not-set-yet')}}"
                                            class="uk-button uk-button-razor   uk-button-primary ">
-                                            <span class="button__label"><span>More</span></span>
+                                            <span class="button__label">More</span>
                                         </a>
                                     </div>
                                 </div>
@@ -167,8 +160,6 @@
             </section>
         </li>
         <li>
-            <style type="text/css" scoped>
-            </style>
             <section id="section-675278" class="section section--default">
                 <div class="section__inside">
                     <div class="uk-grid">
@@ -196,9 +187,9 @@
                                 </div>
                                 <div class="uk-width-1-1">
                                     <div class="button__group">
-                                        <a href="lottery-solutions/Lotterie_Loesungen.html"
+                                        <a href="{{url('not-set-yet')}}"
                                            class="uk-button uk-button-razor   uk-button-primary ">
-                                            <span class="button__label"><span>more</span></span>
+                                            <span class="button__label">more</span>
                                         </a>
                                     </div>
                                 </div>
@@ -216,8 +207,6 @@
             </section>
         </li>
         <li>
-            <style type="text/css" scoped>
-            </style>
             <section id="section-675279" class="section  section--default">
                 <div class="section__inside">
                     <div class="uk-grid">
@@ -240,9 +229,9 @@
                                 </div>
                                 <div class=" uk-width-1-1">
                                     <div class="button__group">
-                                        <a href="heating-control/heating_control.html"
+                                        <a href="{{url('not-set-yet')}}"
                                            class="uk-button uk-button-razor uk-button-primary ">
-                                            <span class="button__label"><span>more</span></span>
+                                            <span class="button__label">more</span>
                                         </a>
                                     </div>
                                 </div>
@@ -260,8 +249,6 @@
             </section>
         </li>
         <li>
-            <style type="text/css" scoped>
-            </style>
             <section id="section-675749" class="section  section--default">
                 <div class="section__inside">
                     <div class="uk-grid">
@@ -297,9 +284,9 @@
                                 </div>
                                 <div class=" uk-width-1-1">
                                     <div class="button__group">
-                                        <a href="emobility/emobility.html"
+                                        <a href="{{url('not-set-yet')}}"
                                            class="uk-button uk-button-razor   uk-button-primary ">
-                                            <span class="button__label"><span>more</span></span>
+                                            <span class="button__label">more</span>
                                         </a>
                                     </div>
                                 </div>

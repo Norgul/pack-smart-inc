@@ -3,12 +3,12 @@
 
 @section('content')
 
-    @include('partials.sections.technologies_cartwheel')
-    @include('partials.sections.technologies_tab_selection')
-    @include('partials.sections.technologies_careers')
-    @include('partials.sections.news')
-    @include('partials.sections.contact')
-    @include('partials.sections.location')
-    @include('partials.sections.footer_menu')
+    @include('sections.technologies_cartwheel')
+    @include('sections.technologies_tab_selection')
+    @include('sections.technologies_careers')
+    @include('sections.news')
+    @include('sections.contact')
+    @include('sections.location')
+    @include('sections.footer_menu')
 
 @endsection

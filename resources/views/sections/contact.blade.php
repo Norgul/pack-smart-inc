@@ -39,20 +39,20 @@
                             <select name="department" id="department" data-uk-select class="select"
                                     data-parsley-required="true" required>
                                 <option value="">Subject</option>
-                                <option value="general inquiry">
-                                    <p>Support</p>
+                                <option value="1">
+                                    Support
                                 </option>
-                                <option value="product inquiry">
-                                    <p>Service</p>
+                                <option value="2">
+                                    Service
                                 </option>
-                                <option value="jobs">
-                                    <p>Product Inquiry</p>
+                                <option value="3">
+                                    Product Inquiry
                                 </option>
-                                <option value="press">
-                                    <p>Parts</p>
+                                <option value="4">
+                                    Parts
                                 </option>
-                                <option value="service inquiry">
-                                    <p>Consumables</p>
+                                <option value="5">
+                                    Consumables
                                 </option>
                             </select>
                         </div>

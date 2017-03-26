@@ -47,6 +47,7 @@
         <a href="{{url('/')}}" class="logo">
             <img src="{{asset('images/logo.jpg')}}" alt="">
         </a>
+
     </div>
 </div>
 <div class="uk-clearfix"></div>

@@ -1,22 +1,43 @@
 <style type="text/css" scoped>
-#slider1 {background-image: url('{{asset('images/home_slider_1.jpg')}}');}
-#slider2 {background-image: url('{{asset('images/home_slider_2.jpg')}}');}
-#slider3 {background-image: url('{{asset('images/home_slider_3.jpg')}}');}
+    #slider1 {
+        background-image: url('{{asset('images/technologies_slider_1.jpg')}}');
+    }
 
-@media (max-width: 1035px) {
-    #slider1 {background-image: url('{{asset('images/home_slider_1.jpg')}}');}
-    #slider2 {background-image: url('{{asset('images/home_slider_2.jpg')}}');}
-    #slider3 {background-image: url('{{asset('images/home_slider_3.jpg')}}');}
-}
-@media (max-width: 375px) {
-    #slider1 {background-image: url('{{asset('images/home_slider_1.jpg')}}');}
-    #slider2 {background-image: url('{{asset('images/home_slider_2.jpg')}}');}
-    #slider3 {background-image: url('{{asset('images/home_slider_3.jpg')}}');}
-}
+    #slider2 {
+        background-image: url('{{asset('images/technologies_slider_3.jpg')}}');
+    }
 
-.heading-white{
-    color: white;
-}
+    #slider3 {
+        background-image: url('{{asset('images/technologies_slider_2.jpg')}}');
+    }
+
+    @media (max-width: 1035px) {
+        #slider1 {
+            background-image: url('{{asset('images/technologies_slider_1.jpg')}}');
+        }
+
+        #slider2 {
+            background-image: url('{{asset('images/technologies_slider_3.jpg')}}');
+        }
+
+        #slider3 {
+            background-image: url('{{asset('images/technologies_slider_2.jpg')}}');
+        }
+    }
+
+    @media (max-width: 375px) {
+        #slider1 {
+            background-image: url('{{asset('images/technologies_slider_1.jpg')}}');
+        }
+
+        #slider2 {
+            background-image: url('{{asset('images/technologies_slider_3.jpg')}}');
+        }
+
+        #slider3 {
+            background-image: url('{{asset('images/technologies_slider_2.jpg')}}');
+        }
+    }
 </style>
 
 <div class="uk-slidenav-position slideshow--high" data-uk-slideshow="{autoplay:true, autoplayInterval:4000}">
@@ -26,11 +47,10 @@
                 <div class="section__inside">
                     <div class="box box--transGreen box--bottom box--clip">
                         <div class="box--transInner">
-                            <h2>Welcome to Pack-Smart Inc. <br> Automated packaging solutions.</h2>
+                            <h2>Over 100 Proven Solutions <br>for Every Problem</h2>
+
                             <div class="paragraph paragraph--default uk-margin-top">
-                                <p>For more than 15 years, Pack-Smart Inc. has designed and engineered innovative automated packaging solutions
-                                    <br> with over 600 unique system installations worldwide.
-                                </p>
+                                <p>Modular Design Concept built for speed and versatility</p>
                             </div>
                             <div class="box--transGreen--addition">
                                 <div class="box--transGreen--addition__inner">
@@ -49,12 +69,14 @@
                         <div class="box box--bottom">
                             <div class="box--transInner">
                                 <div class="paragraph paragraph--default">
-                                    <p style="color: white;">Solutions with Purpose</p>
+                                    <p>Outstanding Performance. Proven Results.</p>
                                 </div>
-                                <h1 class="heading-white">Inspired by challenge. Driven by solution.</h1>
+                                <h1>Tailored Solutions to Your Industry Needs</h1>
+
                                 <div class="paragraph uk-margin-large-bottom"></div>
                                 <div class="button__group">
-                                    <a href="{{url('not-set-yet')}}" class="uk-button uk-button-razor uk-button-primary ">
+                                    <a href="{{url('about/innovations')}}"
+                                       class="uk-button uk-button-razor uk-button-primary ">
                                         <span class="button__label">Learn More</span>
                                     </a>
                                 </div>
@@ -71,16 +93,19 @@
                         <div class="box  box--bottom ">
                             <div class="box--transInner">
                                 <div class="paragraph paragraph--default">
-                                    <p>Exceed expectations</p>
+                                    <p>Be Fast. Be First</p>
                                 </div>
-                                <h1>Stay Relevant in your market</h1>
+                                <h1>Integrate Highest Performance In Your Process</h1>
 
                                 <div class="paragraph  uk-margin-large-bottom"></div>
                                 <div class="button__group">
-                                    <a data-uk-lightbox data-lightbox-type="iframe" href="https://youtu.be/JTmDFtexziE" class="uk-button uk-button-razor uk-button-primary ">
+                                    <a data-uk-lightbox data-lightbox-type="iframe"
+                                       href="https://www.youtube.com/watch?v=-x7hgd6E9tc"
+                                       class="uk-button uk-button-razor uk-button-primary ">
                                         <span class="button__label"><span>Watch Video</span></span>
                                     </a>
-                                    <a href="{{url('not-set-yet')}}" class="uk-button uk-button-razor   button--default ">
+                                    <a href="{{url('about/innovations')}}"
+                                       class="uk-button uk-button-razor   button--default ">
                                         <span class="button__label">Learn More</span>
                                     </a>
                                 </div>

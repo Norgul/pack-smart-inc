@@ -2,6 +2,7 @@
     <div class="uk-container uk-container-center">
         <div class="section__inside">
             <div class="uk-grid">
+
                 <div class="  uk-width-small-1-1 marginBottom50">
                     <h1>News & Success Stories</h1>
 
@@ -12,16 +13,17 @@
                         </p>
                     </div>
                     <div class="button__group">
-                        <a href="corporate/newsroom/news/current-issues.html"
+                        <a href="{{url('not-set-yet')}}"
                            class="uk-button uk-button-razor   uk-button-primary ">
-                            <span class="button__label"><span>News</span></span>
+                            <span class="button__label">News</span>
                         </a>
-                        <a href="corporate/newsroom/calender-of-events/events.html"
+                        <a href="{{url('not-set-yet')}}"
                            class="uk-button uk-button-razor   button--default ">
-                            <span class="button__label"><span>Success Stories</span></span>
+                            <span class="button__label">Success Stories</span>
                         </a>
                     </div>
                 </div>
+
                 <div class="  uk-width-medium-1-2 uk-width-large-1-2">
                     <div class="newsbox">
                         <figure class="uk-overlay">
@@ -36,8 +38,8 @@
                             Tempus suscipit duis nostra sit sem accumsan, nostra metus accumsan nam hendrerit ligula vel
                             in sapien hymenaeos primis fusce. Ultricies.
                         </p>
-                        <a href="corporate/newsroom/news/Exclusive_supplier_Raiffeisen.html#" class="link">
-                            <span class="link__label"><span>More</span></span>
+                        <a href="{{url('not-set-yet')}}" class="link">
+                            <span class="link__label">More</span>
                         </a>
                     </div>
                 </div>
@@ -55,8 +57,8 @@
                             Tempus suscipit duis nostra sit sem accumsan, nostra metus accumsan nam hendrerit ligula vel
                             in sapien hymenaeos primis fusce. Ultricies.
                         </p>
-                        <a href="corporate/newsroom/news/KEBA_Suppliersday.html#" class="link">
-                            <span class="link__label"><span>More</span></span>
+                        <a href="{{url('not-set-yet')}}" class="link">
+                            <span class="link__label">More</span>
                         </a>
                     </div>
                 </div>
@@ -74,8 +76,8 @@
                             Tempus suscipit duis nostra sit sem accumsan, nostra metus accumsan nam hendrerit ligula vel
                             in sapien hymenaeos primis fusce. Ultricies.
                         </p>
-                        <a href="corporate/newsroom/news/Evo_FI_Forum_2016.html#" class="link">
-                            <span class="link__label"><span>More</span></span>
+                        <a href="{{url('not-set-yet')}}" class="link">
+                            <span class="link__label">More</span>
                         </a>
                     </div>
                 </div>
@@ -94,8 +96,8 @@
                             Tempus suscipit duis nostra sit sem accumsan, nostra metus accumsan nam hendrerit ligula vel
                             in sapien hymenaeos primis fusce. Ultricies.
                         </p>
-                        <a href="corporate/newsroom/news/KEMAS_acquisition.html#" class="link">
-                            <span class="link__label"><span>More</span></span>
+                        <a href="{{url('not-set-yet')}}" class="link">
+                            <span class="link__label">More</span>
                         </a>
                     </div>
                 </div>

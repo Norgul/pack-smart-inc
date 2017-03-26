@@ -3,12 +3,12 @@
 
 @section('content')
 
-    @include('partials.sections.cartwheel')
-    @include('partials.sections.introduction')
-    @include('partials.sections.careers')
-    @include('partials.sections.news')
-    @include('partials.sections.contact')
-    @include('partials.sections.location')
-    @include('partials.sections.footer_menu')
+    @include('sections.cartwheel')
+    @include('sections.introduction')
+    @include('sections.careers')
+    @include('sections.news')
+    @include('sections.contact')
+    @include('sections.location')
+    @include('sections.footer_menu')
 
 @endsection

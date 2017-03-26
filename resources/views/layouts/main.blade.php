@@ -28,18 +28,18 @@
     <script src="{{asset('js/parsley.min.js')}}" defer></script>
 </head>
 <body>
-    @include('partials.navigation')
-    @yield('content')
+@include('partials.navigation')
+@yield('content')
 
-    <section class="footer section  section--green">
-        <div class="uk-container uk-container-center">
-            <div class="section__inside">
-                <div class="paragraph  uk-margin-top uk-margin-bottom uk-text-center" style="color:#FFFFFF;">
-                    <p>Pack-Smart Inc. 2017. All Rights Reserved</p>                    
-                </div>
+<section class="footer section  section--green">
+    <div class="uk-container uk-container-center">
+        <div class="section__inside">
+            <div class="paragraph  uk-margin-top uk-margin-bottom uk-text-center" style="color:#FFFFFF;">
+                <p>Pack-Smart Inc. 2017. All Rights Reserved</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 </body>
 </html>

@@ -26,8 +26,10 @@
     <script src="{{asset('js/selectize.js')}}" defer></script>
     <script src="{{asset('js/app1911.js')}}" defer></script>
     <script src="{{asset('js/parsley.min.js')}}" defer></script>
+    <script src="{{asset('js/bootstrap.min.js')}}" defer></script>
 </head>
 <body>
+
 @include('partials.navigation')
 @yield('content')
 

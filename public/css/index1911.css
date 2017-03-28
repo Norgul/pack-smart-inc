@@ -13342,3 +13342,18 @@ strong {
     color: #000;
     text-transform: uppercase;
 }
+.hover_img a {
+  position:relative;
+}
+.hover_img a span {
+  position:absolute;
+  display:none;
+  z-index:99;
+}
+.hover_img a:hover span {
+  display:block;
+}
+.filter {
+  background-color: #fff;
+  border: 2px solid #ddd;
+}

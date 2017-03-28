@@ -12928,7 +12928,7 @@ div[data-uk-locations] > .uk-width-medium-1-2.uk-width-large-2-3.uk-hidden-small
 }
 
 .sitemap {
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 
 .sitemap a {
@@ -13316,7 +13316,8 @@ strong {
 }
 
 .my-box {
-    padding-left: 10px;
+    /*padding-left: 10px;*/
+    font-size: 12px;
     height: inherit;
     text-transform: uppercase;
     text-align: center;

@@ -20,7 +20,7 @@
                                 <!-- footer menu end-->
 
                         <div class="uk-grid footertoolbar">
-                            <div class="uk-width-1-1 uk-width-medium-1-2">
+                            <div class="uk-width-1-1 uk-width-medium-1-4">
                                 <form class="uk-form" id="form--newsletter" data-parsley-validate="">
                                     <fieldset data-uk-margin>
                                         <input name="newsletter" type="mail" data-parsley-type="email" value=""
@@ -32,9 +32,10 @@
                                     </fieldset>
                                 </form>
                             </div>
-
+                        </div>
+                        <div class="uk-grid">
                             <!-- SOCIAL NETWORKING -->
-                            <div class="uk-width-1-1 uk-width-medium-1-4">
+                            <div class="uk-width-1-2 uk-push-1-4">
                                 <div class="social_networks_footer_icons">
                                     <a target="_blank" href="https://www.facebook.com/packsmartinc" class="sitemapitem">
                                         <i class="uk-icon-facebook"></i>
@@ -53,15 +54,46 @@
                                     </a>
                                 </div>
                             </div>
+                            <!-- Print icon -->
+                            <div class="uk-width-1-2">
+                                <div class="uk-grid">
+                                    <div class="uk-width-1-4">
+                                    </div>
+                                    <div class="uk-width-1-4">
+                                    </div>
+                                    <div class="uk-width-1-4">
+                                        <h3 style="text-align: right; text-transform: uppercase; color: grey;     padding: 12px;">Print</h3>
+                                    </div>
+                                    <div class="uk-width-1-4">
+                                        <a href="#">
+                                            <img style="height: 40px; padding-top: 10px;" src="{{asset('images/print_grey.png')}}"
+                                            onmouseover="this.src='{{asset('images/print_red.png')}}'"
+                                            onmouseout="this.src='{{asset('images/print_grey.png')}}'"
+                                             alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="uk-grid">
-                            <div class="uk-width-1-1 uk-width-small-4-5 uk-width-medium-4-5">
-                                <div class="sitemap sitemap--link-padding-left uk-float-right">
-                                    <a href="{{url('/privacy-policy')}}" class="sitemapitem">Privacy Policy</a>
-                                    <a href="{{url('/terms-and-conditions')}}" class="sitemapitem">Terms & Conditions</a>
-                                    <a href="{{url('/sitemap')}}" class="sitemapitem">Sitemap</a>
+                            <div class="uk-width-1-3">
+                            </div>
+                            <div class="uk-width-1-3">
+                                <div class="uk-grid">
+                                        <div class="uk-width-1-3 sitemap" style="text-align: center;">
+                                            <a href="{{url('/privacy-policy')}}" class="sitemapitem">Privacy Policy</a>
+                                        </div>
+                                        <div class="uk-width-1-3 sitemap" style="text-align: center;">
+                                            <a href="{{url('/terms-and-conditions')}}" class="sitemapitem">Terms & Conditions</a>
+                                        </div>
+                                        <div class="uk-width-1-3 sitemap" style="text-align: center;">
+                                            <a href="{{url('/sitemap')}}" class="sitemapitem">Sitemap</a>
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="uk-width-1-3">
                             </div>
                         </div>
             </div>

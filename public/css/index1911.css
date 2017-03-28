@@ -10009,7 +10009,7 @@ button.uk-button {
 }
 
 .hamburger__menu li {
-    font-size: 90%
+    font-size: 100%
 }
 
 .hamburger__menu li a {
@@ -11504,7 +11504,7 @@ div[data-uk-locations] > .uk-width-medium-1-2.uk-width-large-2-3.uk-hidden-small
     background-color: #d31f26;
     color: #FFF;
     display: block;
-    padding: 13px 18px 14px 18px;
+    padding: 33px 0 0 15px;
     border-right: 1px solid #FFF;
     font-weight: 300;
     font-size: 16px
@@ -11512,7 +11512,7 @@ div[data-uk-locations] > .uk-width-medium-1-2.uk-width-large-2-3.uk-hidden-small
 
 @media (max-width: 1350px) {
     .navi--top li a {
-        padding: 13px 15px 14px 15px;
+        padding: 33px 0 0 15px;
         line-height: 20px
     }
 }
@@ -12592,7 +12592,7 @@ div[data-uk-locations] > .uk-width-medium-1-2.uk-width-large-2-3.uk-hidden-small
 }
 
 .select {
-    text-align: left
+    text-align: left;
 }
 
 .select--green + .selectize-control .selectize-input {
@@ -12845,7 +12845,7 @@ div[data-uk-locations] > .uk-width-medium-1-2.uk-width-large-2-3.uk-hidden-small
 .selectize-dropdown-content {
     overflow-y: auto;
     overflow-x: hidden;
-    max-height: 200px
+    max-height: 500px
 }
 
 .selectize-dropdown-content div:nth-child(2n) {
@@ -13291,47 +13291,54 @@ strong {
         font-size: 30px
     }
 }
-.technologies-options-tab{
-  background-color: #d31f26;
-  height: 46px;
+
+.technologies-options-tab {
+    background-color: #d31f26;
+    height: 46px;
 }
-.technologies-options{
-  margin-left: 30px;
-  padding-top: 4px;
-  width: 300px;
+
+.technologies-options {
+    margin-left: 30px;
+    padding-top: 4px;
+    width: 300px;
 }
-.my-container{
-  max-width: inherit;
-  margin: 0 auto;
+
+.my-container {
+    max-width: inherit;
+    margin: 0 auto;
 }
-.my-box-container{
-  height: 60px;
-  padding-left: 0px;
-  border: 1px solid #ddd;
-  display: table;
+
+.my-box-container {
+    height: 60px;
+    padding-left: 0px;
+    border: 1px solid #ddd;
+    display: table;
 }
-.my-box{
-  padding-left: 10px;
-  height: inherit;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: 'HelveticaNeueW02-45Ligh';
-  color: #000;
-  display: table-cell;
-  vertical-align: middle;
+
+.my-box {
+    padding-left: 10px;
+    height: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'HelveticaNeueW02-45Ligh';
+    color: #000;
+    display: table-cell;
+    vertical-align: middle;
 }
-.my-box:hover{
-  color: #000;
-  text-decoration: none;
-  border-top: 3px solid #d31f26;
+
+.my-box:hover {
+    color: #000;
+    text-decoration: none;
+    border-top: 3px solid #d31f26;
 }
-.my-box:focus{
-  color: #000;
-  text-decoration: none;
-  border-top: 3px solid #d31f26;
+
+.my-box:focus {
+    color: #000;
+    text-decoration: none;
+    border-top: 3px solid #d31f26;
 }
-.technologies-tab-h2
-{
-  color: #000;
-  text-transform: uppercase;
+
+.technologies-tab-h2 {
+    color: #000;
+    text-transform: uppercase;
 }

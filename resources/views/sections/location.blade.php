@@ -19,7 +19,8 @@
 
                     <div class="uk-width-medium-1-2 uk-width-large-2-3" id="dropdown-location-wrapper"></div>
                     <div class="uk-accordion" id="my-accordion">
-                        <div id="locationCountryOffices" class="uk-grid"></div>
+                        <div id="locationCountryOffices" class="uk-grid">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -55,7 +56,7 @@
 
                     </div>
                 </div>
-            </div>
+              </div>
         </div>
     </div>
 </section>

@@ -11405,6 +11405,19 @@
             }, 0);
         };
 
+        var b;
+        var a=[];
+        $.ajax({
+          url: "http://pack-smart-inc.app/office-locations",
+          type: "GET",
+          dataType: "json",
+          success: function(response_data_json){
+            b = response_data_json.data[0];
+            a.push(b);
+            g(a, b);
+          }
+        });
+
         var h, i = UIkit, j = jQuery, k = [], l = null, m = !1, n = null, o = !1, p = 200, q = "", r = "";
         accordion = null,
             b.exports = {

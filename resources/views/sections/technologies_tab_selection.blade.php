@@ -19,12 +19,13 @@
             <nav class="nav">
                 <div class="uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-6">
                     @foreach($technologies_tabs as $tab)
-                        <div class="my-box-container">
+                        <div class="my-box-container hover_img">
                             <a class="nav-link uk-panel my-box
-							@if ($tab->id == 1)
+							                  @if ($tab->id == 1)
                                     active
                                 @endif
                                     " href="#{{$tab->url_slug}}" data-toggle="tab">
+                                    <span><img class="filter" src="{{asset('images/technologies_labeling.png')}}" alt="image" width="200" /></span>
                                 {{$tab->name}}
                             </a>
                         </div>

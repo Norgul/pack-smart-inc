@@ -9749,7 +9749,7 @@
             d("#buttonNewsletter").on("click", function (a) {
                 a.preventDefault();
                 var b = d("#form--newsletter"), c = b.find('[name="newsletter"]');
-                console.log(c.val()), console.log("oh we need some backend here. netural sendform ist im angebot verkauft --> siehe flavia. kann sendform einfach die adresse in einer db speichern? wäre interessant was verkauft wurde, ob wir dann noch email templates bauen oder ob wir die adressen an keba weitergeben und die schicken den newsletter. wenn alles bei uns liegt müssen noch email templates gebaut werden")
+                console.log(c.val()), console.log("oh we need some backend here. netural sendform ist im angebot verkauft --> siehe flavia. kann sendform einfach die adresse in einer db speichern? wäre interessant was verkauft wurde, ob wir dann noch email templates bauen oder ob wir die adressen an pack-smart weitergeben und die schicken den newsletter. wenn alles bei uns liegt müssen noch email templates gebaut werden")
             }), d("#footer_print").on("click", function (a) {
                 a.preventDefault(), window.print()
             })
@@ -10865,11 +10865,11 @@
                     }), f = d("Job", e(this).attr("href"));
                     window.location.href = a.options.portalUrl + "?job=" + f
                 };
-                e('[href*="https://jobs.keba.com/"]').on("click", b), e('[href*="http://jobs.keba.com/"]').on("click", b), e('[href="http://www.keba.com/de/karriere/"]').on("click", function (b) {
+                e('[href*="https://jobs.pack-smart.com/"]').on("click", b), e('[href*="http://jobs.pack-smart.com/"]').on("click", b), e('[href="http://www.pack-smart.com/de/karriere/"]').on("click", function (b) {
                     b.preventDefault(), window.location.href = a.options.resultsUrl
                 })
             }, showPortal: function (a) {
-                this.element.html('<iframe height="600px" width="100%" src="http://jobs.keba.com/SignUp/Extended?Job=' + a + "&contentOnly=true&culture=" + this.currentLocale + '"></iframe>')
+                this.element.html('<iframe height="600px" width="100%" src="http://jobs.pack-smart.com/SignUp/Extended?Job=' + a + "&contentOnly=true&culture=" + this.currentLocale + '"></iframe>')
             }, getJobs: function () {
                 var a = this;
                 e.ajax({
@@ -11401,78 +11401,80 @@
                         null == accordion && (accordion = UIkit.accordion(UIkit.$("#my-accordion"), {showfirst: !1})), accordion.update(),
                         c || (c = !0, accordion.toggleItem(j(accordion.find("[data-wrapper]")[e]), !0, !1));
                     }, 100);
-                };
+                }
+                ;
             }, 0);
         };
 
-        var b;
-        var a=[];
+        var response, init_array = [];
+        var url = location.href.split("/");
         $.ajax({
-          url: "http://pack-smart-inc.app/office-locations",
-          type: "GET",
-          dataType: "json",
-          success: function(response_data_json){
-            b = response_data_json.data[0];
-            a.push(b);
-            g(a, b);
-          }
+            url: url[0] + "//" + url[2] + "/office-locations",
+            type: "GET",
+            dataType: "json",
+            success: function (response_data_json) {
+                response = response_data_json.data[0];
+                init_array.push(response);
+                g(init_array, response);
+            }
         });
 
         var h, i = UIkit, j = jQuery, k = [], l = null, m = !1, n = null, o = !1, p = 200, q = "", r = "";
         accordion = null,
             b.exports = {
-            boot: function () {
-                i.ready(function (a) {
-                    i.$("[data-uk-locations]", a).each(function () {
-                        var a = i.$(this);
-                        i.locations(a, i.Utils.options(a.attr("data-uk-locations")));
+                boot: function () {
+                    i.ready(function (a) {
+                        i.$("[data-uk-locations]", a).each(function () {
+                            var a = i.$(this);
+                            i.locations(a, i.Utils.options(a.attr("data-uk-locations")));
+                        });
                     });
+                },
+                init: function () {
+                    var a = location.href.split("/");
+                    // r = language /en..../de
+                    r = a[3];
+                    // g = complete link www.packsmart.com
+                    var b = a[2], c = a[0], g = c + "//" + b;
+                    d = a[0] + "//" + a[2] + "/office-locations";
+
+                    e(d, function (a) {
+                        l = a.data;
+                        k = setCityData();
+                        f();
+                        getWindowWidth() > 767 && initMapEv();
+                        h();
+                    });
+                }
+            },
+            getWindowWidth = function () {
+                return j(window).width()
+            },
+            j(window).resize(function () {
+                n = new Date(), o === !1 && (o = !0, setTimeout(d, p));
+            }),
+            initMapEv = function () {
+                m = !0;
+                var a = j(".svg-location");
+                a.click(function () {
+                    if ("#ffffff" != j(this).attr("fill")) {
+                        for (var b = 0; b < a.length; b++)j("#" + a[b].id).attr("fill", "#d31f26");
+                        j(this).attr("fill", "#ffffff"), setLocationData(j(this).attr("countryid"), j(this).attr("id"), !0, !1)
+                    }
+                    ;
                 });
             },
-            init: function () {
-                var a = location.href.split("/");
-                // r = language /en..../de
-                r = a[3];
-                // g = complete link www.packsmart.com
-                var b = a[2], c = a[0], g = c + "//" + b;
-                d = a[0] + "//" + a[2] + "/office-locations";
-
-                e(d, function (a) {
-                    l = a.data;
-                    k = setCityData();
-                    f();
-                    getWindowWidth() > 767 && initMapEv();
-                    h();
-                });
-            }
-        },
-            getWindowWidth = function () {
-            return j(window).width()
-        },
-            j(window).resize(function () {
-            n = new Date(), o === !1 && (o = !0, setTimeout(d, p));
-        }),
-            initMapEv = function () {
-            m = !0;
-            var a = j(".svg-location");
-            a.click(function () {
-                if ("#ffffff" != j(this).attr("fill")) {
-                    for (var b = 0; b < a.length; b++)j("#" + a[b].id).attr("fill", "#d31f26");
-                    j(this).attr("fill", "#ffffff"), setLocationData(j(this).attr("countryid"), j(this).attr("id"), !0, !1)
-                };
-            });
-        },
             h = function () {
-            $locationsSelect = j("<select id='locationsSmall' data-uk-select class='select'></select>"), j("#dropdown-location-wrapper").append($locationsSelect);
-            for (var a = "", b = 0; b < l.length; b++) {
-                var c = l[b].country + ", " + l[b].city;
-                "AUT" != l[b].id && "AUT-IN" != l[b].id || (c += ", " + l[b].name.replace("PACK SMART INC. ", "")), a += "<option value='" + l[b].id + "/" + l[b].countryId + "' ><p>" + c + "</p></option>"
-            }
-            $locationsSelect.append(a), $locationsSelect.selectize(), $locationsSelect.change(function () {
-                var a = j(this).find("option:selected"), b = a.val().split("/")[0], c = a.val().split("/")[1];
-                setLocationData(c, b, !0, !1)
-            })
-        }, setLocationData = function (a, b, c, d) {
+                $locationsSelect = j("<select id='locationsSmall' data-uk-select class='select'></select>"), j("#dropdown-location-wrapper").append($locationsSelect);
+                for (var a = "", b = 0; b < l.length; b++) {
+                    var c = l[b].country + ", " + l[b].city;
+                    "AUT" != l[b].id && "AUT-IN" != l[b].id || (c += ", " + l[b].name.replace("PACK SMART INC. ", "")), a += "<option value='" + l[b].id + "/" + l[b].countryId + "' ><p>" + c + "</p></option>"
+                }
+                $locationsSelect.append(a), $locationsSelect.selectize(), $locationsSelect.change(function () {
+                    var a = j(this).find("option:selected"), b = a.val().split("/")[0], c = a.val().split("/")[1];
+                    setLocationData(c, b, !0, !1)
+                })
+            }, setLocationData = function (a, b, c, d) {
             for (var e = null, f = null, h = null, i = [], k = 0; k < l.length; k++)"AUT" == l[k].countryId && l[k].headquater === !0 && (h = l[k]), l[k].countryId == a && l[k].headquater === !0 && (e = l[k]), l[k].countryId === a && i.push(l[k]), l[k].id == b && (f = l[k]);
             if (e = null === e ? h : e, "NLD" === a && i.push(h), i.length > 0 && (d ? g(i, e) : g(i, f)), !c)for (var m = j(".svg-location"), k = 0; k < m.length; k++)b === m[k].id && j("#" + m[k].id).attr("fill", "#ffffff")
         }, setCityData = function () {
@@ -11690,7 +11692,7 @@
                         source: function (a) {
                             var c = this.value;
                             e.ajax({
-                                url: "http://www.keba.com/api/search/autocomplete.php",
+                                url: "http://www.pack-smart.com/api/search/autocomplete.php",
                                 type: "GET",
                                 dataType: "json",
                                 data: {query: c, lang: b}

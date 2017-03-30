@@ -36,8 +36,8 @@
                         </div>
                         <div class="uk-grid">
                             <!-- SOCIAL NETWORKING -->
-                            <div class="uk-width-1-2">
-                                <div class="social_networks_footer_icons">
+                            <div class="uk-width-1-2 uk-container-center">
+                                <div class="social_networks_footer_icons" style="float:left; padding-left: 10px;">
                                     <a target="_blank" href="https://www.facebook.com/packsmartinc" class="sitemapitem">
                                         <i class="uk-icon-facebook"></i>
                                     </a>
@@ -56,23 +56,13 @@
                                 </div>
                             </div>
                             <!-- Print icon -->
-                            <div class="uk-width-1-2 ">
-                                <div class="uk-grid">
-                                    <div class="uk-width-1-4">
-                                    </div>
-                                    <div class="uk-width-1-4">
-                                    </div>
-                                    <div class="uk-width-1-4" style="margin-top: 8px;">
-                                        <div class="sitemapitem">
-                                            <h3 style="text-align: right; text-transform: uppercase; color: grey;">Print</h3>
-                                        </div>
-                                    </div>
-                                    <div class="uk-width-1-4 social_networks_footer_icons">
+                            <div class="uk-width-1-2 uk-container-center">
+                                    <div class="social_networks_footer_icons" style="float:right; padding-right: 10px;">
                                         <a class="print" href="javascript:window.print();">
+                                            PRINT
                                             <i class="uk-icon-print" aria-hidden="true"></i>
                                         </a>
                                     </div>
-                                </div>
                             </div>
                         </div>
 
@@ -81,13 +71,13 @@
                             </div>
                             <div class="uk-width-1-3">
                                 <div class="uk-grid">
-                                        <div class="uk-width-1-3 sitemap" style="text-align: center;">
+                                        <div class="uk-width-small-1-1 uk-width-medium-1-3 sitemap" style="text-align: center;">
                                             <a href="{{url('/privacy-policy')}}" class="sitemapitem">Privacy Policy</a>
                                         </div>
-                                        <div class="uk-width-1-3 sitemap" style="text-align: center;">
+                                        <div class="uk-width-small-1-1 uk-width-medium-1-3 sitemap" style="text-align: center;">
                                             <a href="{{url('/terms-and-conditions')}}" class="sitemapitem">Terms & Conditions</a>
                                         </div>
-                                        <div class="uk-width-1-3 sitemap" style="text-align: center;">
+                                        <div class="uk-width-small-1-1 uk-width-medium-1-3 sitemap" style="text-align: center;">
                                             <a href="{{url('/sitemap')}}" class="sitemapitem">Sitemap</a>
                                         </div>
                                     </div>

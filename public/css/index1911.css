@@ -13359,8 +13359,13 @@ strong {
   border: 2px solid #ddd;
 }
 .print{
+    font-family: "HelveticaNeueW02-Thin", "Helvetica Neue", Helvetica, sans-serif;
     color: grey;
 }
 .print:hover{
     color: #d31f26;
+}
+.print:visited{
+    font-family: "HelveticaNeueW02-Thin", "Helvetica Neue", Helvetica, sans-serif;
+    color: grey;
 }

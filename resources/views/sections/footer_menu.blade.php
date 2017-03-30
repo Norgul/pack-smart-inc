@@ -19,6 +19,7 @@
                         @endforeach
                                 <!-- footer menu end-->
 
+
                         <div class="uk-grid footertoolbar">
                             <div class="uk-width-1-1 uk-width-medium-1-4">
                                 <form class="uk-form" id="form--newsletter" data-parsley-validate="">

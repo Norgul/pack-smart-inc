@@ -14,6 +14,11 @@
 Auth::routes();
 
 
+Route::get('test', function(){
+    return view('test');
+});
+
+
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
 Route::get('/office-locations', 'OfficeLocationsController@index');

@@ -13358,3 +13358,9 @@ strong {
   background-color: #fff;
   border: 2px solid #ddd;
 }
+.print{
+    color: grey;
+}
+.print:hover{
+    color: #d31f26;
+}

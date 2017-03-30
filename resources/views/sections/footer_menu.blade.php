@@ -36,7 +36,7 @@
                         </div>
                         <div class="uk-grid">
                             <!-- SOCIAL NETWORKING -->
-                            <div class="uk-width-1-2 uk-push-1-4">
+                            <div class="uk-width-1-2">
                                 <div class="social_networks_footer_icons">
                                     <a target="_blank" href="https://www.facebook.com/packsmartinc" class="sitemapitem">
                                         <i class="uk-icon-facebook"></i>
@@ -56,21 +56,20 @@
                                 </div>
                             </div>
                             <!-- Print icon -->
-                            <div class="uk-width-1-2">
+                            <div class="uk-width-1-2 ">
                                 <div class="uk-grid">
                                     <div class="uk-width-1-4">
                                     </div>
                                     <div class="uk-width-1-4">
                                     </div>
-                                    <div class="uk-width-1-4">
-                                        <h3 style="text-align: right; text-transform: uppercase; color: grey;     padding: 12px;">Print</h3>
+                                    <div class="uk-width-1-4" style="margin-top: 8px;">
+                                        <div class="sitemapitem">
+                                            <h3 style="text-align: right; text-transform: uppercase; color: grey;">Print</h3>
+                                        </div>
                                     </div>
-                                    <div class="uk-width-1-4">
-                                        <a href="#">
-                                            <img style="height: 40px; padding-top: 10px;" src="{{asset('images/print_grey.png')}}"
-                                            onmouseover="this.src='{{asset('images/print_red.png')}}'"
-                                            onmouseout="this.src='{{asset('images/print_grey.png')}}'"
-                                             alt="">
+                                    <div class="uk-width-1-4 social_networks_footer_icons">
+                                        <a class="print" href="javascript:window.print();">
+                                            <i class="uk-icon-print" aria-hidden="true"></i>
                                         </a>
                                     </div>
                                 </div>

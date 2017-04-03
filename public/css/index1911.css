@@ -13011,8 +13011,8 @@ div[data-uk-locations] > .uk-width-medium-1-2.uk-width-large-2-3.uk-hidden-small
 .slideshow--high,
 .slideshow--high .uk-slideshow,
 .slideshow--high .uk-slideshow li {
-    min-height: 700px !important;
-    max-height: 700px !important
+    min-height: 500px !important;
+    max-height: 500px !important
 }
 
 @media (max-width: 960px) {
@@ -13363,6 +13363,8 @@ strong {
 .print{
     font-family: "HelveticaNeueW02-Thin", "Helvetica Neue", Helvetica, sans-serif;
     color: grey;
+    font-size: 17px;
+    text-decoration: none;
 }
 .print:hover{
     color: #d31f26;

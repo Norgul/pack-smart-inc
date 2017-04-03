@@ -45,7 +45,7 @@
         <li>
             <section id="slider1" class="section section--mediumHeight sectionhotspots high">
                 <div class="section__inside">
-                    <div class="box box--transGreen box--bottom box--clip">
+                    <div class="box box--transGreen box--bottom box--clip" style="bottom: 250px;">
                         <div class="box--transInner">
                             <h2>Welcome to Pack-Smart Inc. <br> Automated packaging solutions.</h2>
 
@@ -93,7 +93,7 @@
             <section id="slider3" class="section  section--mediumHeight sectionhotspots">
                 <div class="section__inside">
                     <div class="uk-grid grid--intended--left grid--intended--right ">
-                        <div class="box  box--bottom ">
+                        <div class="box  box--bottom">
                             <div class="box--transInner">
                                 <div class="paragraph paragraph--default">
                                     <p>Exceed expectations</p>

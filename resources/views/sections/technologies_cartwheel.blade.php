@@ -45,7 +45,7 @@
         <li>
             <section id="slider1" class="section section--mediumHeight sectionhotspots high">
                 <div class="section__inside">
-                    <div class="box box--transGreen box--bottom box--clip">
+                    <div class="box box--transGreen box--bottom box--clip" style="bottom: 250px;">
                         <div class="box--transInner">
                             <h2>Over 100 Proven Solutions <br>for Every Problem</h2>
 

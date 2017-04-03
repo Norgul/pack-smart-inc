@@ -38,31 +38,28 @@
                             <!-- SOCIAL NETWORKING -->
                             <div class="uk-width-1-2 uk-container-center">
                                 <div class="social_networks_footer_icons" style="float:left; padding-left: 10px;">
-                                    <a target="_blank" href="https://www.facebook.com/packsmartinc" class="sitemapitem">
-                                        <i class="uk-icon-facebook"></i>
-                                    </a>
-                                    <a target="_blank" href="https://twitter.com/packsmartca"
-                                       class="sitemapitem">
-                                        <i class="uk-icon-twitter"></i>
-                                    </a>
-                                    <a target="_blank" href="https://www.linkedin.com/company/pack-smart-inc"
-                                       class="sitemapitem">
-                                        <i class="uk-icon-linkedin"></i>
-                                    </a>
-                                    <a target="_blank" href="https://www.youtube.com/user/PackSmartInc/videos"
-                                       class="sitemapitem">
-                                        <i class="uk-icon-youtube"></i>
-                                    </a>
                                 </div>
                             </div>
                             <!-- Print icon -->
                             <div class="uk-width-1-2 uk-container-center">
-                                    <div class="social_networks_footer_icons" style="float:right; padding-right: 10px;">
-                                        <a class="print" href="javascript:window.print();">
-                                            PRINT
-                                            <i class="uk-icon-print" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
+                              <div class="social_networks_footer_icons" style="float:right; padding-right: 10px;">
+                                <a target="_blank" href="https://www.facebook.com/packsmartinc" class="sitemapitem">
+                                  <i class="uk-icon-facebook"></i>
+                                </a>
+                                <a target="_blank" href="https://twitter.com/packsmartca" class="sitemapitem">
+                                  <i class="uk-icon-twitter"></i>
+                                </a>
+                                <a target="_blank" href="https://www.linkedin.com/company/pack-smart-inc" class="sitemapitem">
+                                  <i class="uk-icon-linkedin"></i>
+                                </a>
+                                <a target="_blank" href="https://www.youtube.com/user/PackSmartInc/videos" class="sitemapitem">
+                                  <i class="uk-icon-youtube"></i>
+                                </a>
+                                <a href="javascript:window.print();">
+                                  <span class="print">PRINT<span>
+                                  <i class="social_networks_footer_icons uk-icon-print" aria-hidden="true"></i>
+                                </a>
+                              </div>
                             </div>
                         </div>
 

@@ -21,7 +21,7 @@
                     <div class="button__group">
                         <a href="{{url('/careers')}}"
                            class="uk-button uk-button-primary">
-                            <span class="button__label"><span>learn more</span></span>
+                            <span class="button__label"><span>more</span></span>
                         </a>
                     </div>
                 </div>

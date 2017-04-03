@@ -19,7 +19,7 @@
                         </p>
                     </div>
                     <div class="button__group">
-                        <a href="{{url('/careers')}}"
+                        <a href="{{url($url)}}"
                            class="uk-button uk-button-primary">
                             <span class="button__label"><span>more</span></span>
                         </a>

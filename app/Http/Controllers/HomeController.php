@@ -38,4 +38,11 @@ class HomeController extends Controller
         $technologies_tabs = TechnologiesTab::all();
         return view('technologies', compact('header_categories', 'main_menu_categories', 'technologies_tabs'));
     }
+
+    public function labeling()
+    {
+        $main_menu_categories = MainMenuCategory::all();
+        $header_categories = HeaderCategory::all();
+        return view('labeling', compact('header_categories', 'main_menu_categories'));
+    }
 }

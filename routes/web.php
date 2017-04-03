@@ -23,6 +23,7 @@ Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
 Route::get('/office-locations', 'OfficeLocationsController@index');
 Route::get('/technologies', 'HomeController@technologies');
+Route::get('/labeling', 'HomeController@labeling');
 /*
  * Header routes
  */

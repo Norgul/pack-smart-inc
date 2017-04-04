@@ -8466,7 +8466,8 @@ a.uk-thumbnail:focus {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: rgba(50, 50, 50, 0.1);
+    background: white;
+    border: 1px solid black;
     text-indent: 100%;
     overflow: hidden;
     white-space: nowrap
@@ -8474,12 +8475,12 @@ a.uk-thumbnail:focus {
 
 .uk-dotnav > * > :hover,
 .uk-dotnav > * > :focus {
-    background: rgba(50, 50, 50, 0.4);
+    background: black;
     outline: none
 }
 
 .uk-dotnav > * > :active {
-    background: rgba(50, 50, 50, 0.6)
+    background: black;
 }
 
 .uk-dotnav > .uk-active > * {

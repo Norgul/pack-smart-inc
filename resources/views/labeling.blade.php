@@ -3,7 +3,7 @@
 
 @section('content')
 
-    @include('sections.technologies_cartwheel')
+    @include('sections.labeling_cartwheel')
     @include('sections.labeling_tab_selection')
     @include('sections.contact')
     @include('sections.location')

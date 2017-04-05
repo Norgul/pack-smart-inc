@@ -13447,3 +13447,42 @@ strong {
 .uk-slidenav-contrast-labeling{
   color: #000;
 }
+.img-button{
+  position: absolute;
+  bottom: 10px; /*your button position*/
+  right: 10px; /*your button position*/
+  color: #d31f26;
+  text-decoration: none;
+  font-size: 17px;
+  border: solid;
+  padding: 5px;
+}
+.img-button:hover{
+  position: absolute;
+  bottom: 10px; /*your button position*/
+  right: 10px; /*your button position*/
+  color: #d31f26;
+  text-decoration: none;
+  font-size: 17px;
+  border: solid;
+  padding: 5px;
+}
+.img-button:visited{
+  position: absolute;
+  bottom: 10px; /*your button position*/
+  right: 10px; /*your button position*/
+  color: #d31f26;
+  text-decoration: none;
+  font-size: 17px;
+  border: solid;
+  padding: 5px;
+}
+.img-txt{
+  background: rgba(211, 31, 38, 0.85);
+  color: white;
+  padding: 20px;
+  position: absolute;
+  top: 0px; /*your button position*/
+  left: 0px; /*your button position*/
+  margin-top: 0px;
+}

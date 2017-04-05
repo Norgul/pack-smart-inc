@@ -42,5 +42,6 @@
         </div>
     </div>
 </section>
+<script src="{{asset('js/utils.js')}}" defer></script>
 </body>
 </html>

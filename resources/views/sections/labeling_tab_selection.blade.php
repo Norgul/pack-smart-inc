@@ -59,6 +59,88 @@
 			</div>
 	</div>
 	<div class="uk-width-large-1-10"></div>
-
+</div>
+<div class="uk-container uk-container-center">
+	<div class="section__inside" style="padding-bottom: 35px;">
+		<div class="uk-grid">
+			<div class="uk-width-1-1">
+				<h1 style="text-align:center;">Labeling Technologies</h1>
+				<p style="text-align:center;">
+						Easily affix virtually any type and size of labels, they are designed to be highly flexible and versatile, operating at amazing speeds with excellent accuracy.
+						Our labelers will easily integrate into your new or existing equipment, and allow for hassle-free setup, 24/7 non-stop operation and cost reduction.
+				</p>
+			</div>
+		</div>
+		<ul class="uk-grid" data-uk-grid-margin="">
+	    <li class="uk-width-medium-1-3 uk-row-first">
+	        <figure class="uk-overlay uk-overlay-hover">
+	            <img src="{{asset('images/labeling/pressure-sensitive-tile.jpg')}}" width="600" height="400" alt="Image">
+							<p class="img-txt">Pressure Sensitive</p>
+							<a class="img-button" href="">Learn More</a>
+	            <figcaption class="uk-overlay-panel uk-overlay-background  uk-overlay-top uk-overlay-slide-top" style="background: rgba(211, 31, 38, 0.85);">
+	                <p>Widely-spread over a broad range of industries, the pressure sensitive labels are easy to handle and apply.
+										From Printable, Piggyback, Scratch-off, Wafer/Clip Seal, Sensormatic, and Checkpoint to Double-sided Clear,
+										we have the technologies to affix them in an amazingly fast and accurate manner, for your .</p>
+	            </figcaption>
+	        </figure>
+	    </li>
+	    <li class="uk-width-medium-1-3">
+				<figure class="uk-overlay uk-overlay-hover">
+						<img src="{{asset('images/labeling/wet-labels-tile.jpg')}}" width="600" height="400" alt="Image">
+						<p class="img-txt">Wet Labels</p>
+						<a class="img-button" href="">Learn More</a>
+						<figcaption class="uk-overlay-panel uk-overlay-background  uk-overlay-top uk-overlay-slide-top" style="background: rgba(211, 31, 38, 0.85);">
+								<p>Wet label affixing is a more involving process, for which we developed end-to-end comprehensive solutions.
+									You can opt for a minimal solution for affixing labels only,
+									or a completely tailored solution where wet label affixing is just a step of your packaging process.</p>
+						</figcaption>
+				</figure>
+	    </li>
+	    <li class="uk-width-medium-1-3">
+				<figure class="uk-overlay uk-overlay-hover">
+						<img src="{{asset('images/labeling/hot-melt-tile.jpg')}}" width="600" height="400" alt="Image">
+						<p class="img-txt">Hot Melt</p>
+						<a class="img-button" href="">Learn More</a>
+						<figcaption class="uk-overlay-panel uk-overlay-background  uk-overlay-top uk-overlay-slide-top" style="background: rgba(211, 31, 38, 0.85);">
+								<p>Characteristic for the Bottling industry, hot melt labels are generally complete wraparound labels on containers made of glass, plastic or metal.
+									We developed high throughput versatile solutions, which can operate with hot glue-, cold glue-, or self-adhesive labels.</p>
+						</figcaption>
+				</figure>
+	    </li>
+			<li class="uk-width-medium-1-3">
+				<figure class="uk-overlay uk-overlay-hover">
+						<img src="{{asset('images/labeling/magnetic-strip-tile.jpg')}}" width="600" height="400" alt="Image">
+						<p class="img-txt">Magnetic Strip</p>
+						<a class="img-button" href="">Learn More</a>
+						<figcaption class="uk-overlay-panel uk-overlay-background  uk-overlay-top uk-overlay-slide-top" style="background: rgba(211, 31, 38, 0.85);">
+								<p>Magnetic Strip is mainly used in Access Applications, such as Banking or IDs.
+									As a clear example of our flexible design, and even though magnetic strip is not a conventional label,
+									it can easily be applied by our labelling modules with the same high speed and accuracy we provide to all our customers.</p>
+						</figcaption>
+				</figure>
+	    </li>
+	    <li class="uk-width-medium-1-3">
+				<figure class="uk-overlay uk-overlay-hover">
+						<img src="{{asset('images/labeling/3d-label-tile.jpg')}}" width="600" height="400" alt="Image">
+						<p class="img-txt">3D Label</p>
+						<a class="img-button" href="">Learn More</a>
+						<figcaption class="uk-overlay-panel uk-overlay-background  uk-overlay-top uk-overlay-slide-top" style="background: rgba(211, 31, 38, 0.85);">
+								<p>For your individualized requirements, we offer technologies for 3D object affixing, such as Velcro,
+									CD Hub, Felt Pads, and more. You will be amazed by the speed and accuracy of our modules. </p>
+						</figcaption>
+				</figure>
+	    </li>
+			<li class="uk-width-medium-1-3">
+				<figure class="uk-overlay uk-overlay-hover">
+						<img src="{{asset('images/labeling/hot-melt-tile.jpg')}}" width="600" height="400" alt="Image">
+						<p class="img-txt">Pressure Sensitive</p>
+						<a class="img-button" href="">Learn More</a>
+						<figcaption class="uk-overlay-panel uk-overlay-background  uk-overlay-top uk-overlay-slide-top" style="background: rgba(211, 31, 38, 0.85);">
+								<p>Lorem ipsum dolor sit amet.</p>
+						</figcaption>
+				</figure>
+	    </li>
+	</ul>
+	</div>
 </div>
 </section>

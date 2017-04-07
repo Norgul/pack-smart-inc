@@ -51,7 +51,7 @@
                               <div class="paragraph paragraph--default">
                                   <p>Improve Your Productivity</p>
                               </div>
-                              <h1>Speeds of Up to 40,000pph & 0.4mm Accuracy</h1>
+                              <h1 style="font-size: 3rem;">Speeds of Up to 40,000pph & 0.4mm Accuracy</h1>
 
                               <div class="paragraph  uk-margin-large-bottom"></div>
                               <div class="button__group">
@@ -76,7 +76,7 @@
                               <div class="paragraph paragraph--default">
                                   <p>Improve Your Productivity</p>
                               </div>
-                              <h1>Speeds of Up to 40,000pph & 0.4mm Accuracy</h1>
+                              <h1 style="font-size: 3rem;">Speeds of Up to 40,000pph & 0.4mm Accuracy</h1>
 
                               <div class="paragraph  uk-margin-large-bottom"></div>
                               <div class="button__group">
@@ -101,7 +101,7 @@
                                 <div class="paragraph paragraph--default">
                                     <p>Improve Your Productivity</p>
                                 </div>
-                                <h1>Speeds of Up to 40,000pph & 0.4mm Accuracy</h1>
+                                <h1 style="font-size: 3rem;">Speeds of Up to 40,000pph & 0.4mm Accuracy</h1>
 
                                 <div class="paragraph  uk-margin-large-bottom"></div>
                                 <div class="button__group">

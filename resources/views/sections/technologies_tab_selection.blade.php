@@ -18,7 +18,7 @@
                 <div class="uk-grid uk-grid-small uk-grid-width-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-10">
                     @foreach($technologies_tabs as $tab)
                         <div class="my-box-container hvr-bounce-to-bottom">
-                            <a class="scroll nav-link uk-panel my-box 
+                            <a class="scroll nav-link uk-panel my-box
                                               @if ($tab->id == 1)
                                     active
                                 @endif
@@ -43,9 +43,3 @@
         </div>
     </div>
 </section>
-
-
-
-
-  
-

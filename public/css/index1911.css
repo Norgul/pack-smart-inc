@@ -8564,11 +8564,11 @@ a.uk-thumbnail:focus {
 }
 
 .uk-slidenav-position .uk-slidenav-previous {
-    left: 20px
+    left: -10%
 }
 
 .uk-slidenav-position .uk-slidenav-next {
-    right: 20px
+    right: -10%
 }
 
 .uk-slidenav-contrast {
@@ -12993,9 +12993,6 @@ div[data-uk-locations] > .uk-width-medium-1-2.uk-width-large-2-3.uk-hidden-small
         background-color: #c1c1c1
     }
 
-    .uk-slidenav-position .uk-slidenav {
-        top: 30%
-    }
 }
 
 .uk-slideshow li > section {
@@ -13440,8 +13437,8 @@ strong {
     box-sizing: border-box;
     width: 42px;
     height: 42px;
-    line-height: 42px;
-    font-size: 92px;
+    line-height: 0px;
+    font-size: 150px;
     text-align: center;
 }
 .uk-slidenav-contrast-labeling{
@@ -13449,40 +13446,57 @@ strong {
 }
 .img-button{
   position: absolute;
-  bottom: 10px; /*your button position*/
-  right: 10px; /*your button position*/
+  bottom: 10px;
+  right: 10px;
   color: #d31f26;
   text-decoration: none;
   font-size: 17px;
   border: solid;
+  border-color: #d31f26;
   padding: 5px;
-}
-.img-button:hover{
-  position: absolute;
-  bottom: 10px; /*your button position*/
-  right: 10px; /*your button position*/
-  color: #d31f26;
-  text-decoration: none;
-  font-size: 17px;
-  border: solid;
-  padding: 5px;
+  font-family: "HelveticaNeueW02-45Ligh";
 }
 .img-button:visited{
   position: absolute;
-  bottom: 10px; /*your button position*/
-  right: 10px; /*your button position*/
+  bottom: 10px;
+  right: 10px;
   color: #d31f26;
   text-decoration: none;
   font-size: 17px;
   border: solid;
+  border-color: #d31f26;
   padding: 5px;
+  font-family: "HelveticaNeueW02-45Ligh";
 }
 .img-txt{
   background: rgba(211, 31, 38, 0.85);
   color: white;
   padding: 20px;
   position: absolute;
-  top: 0px; /*your button position*/
-  left: 0px; /*your button position*/
+  top: 0px;
+  left: 0px;
   margin-top: 0px;
+  font-family: "HelveticaNeueW02-45Ligh";
+  font-size: 17px;
+}
+.last-img-button-position{
+  position: absolute;
+  left: 50% !important; margin-left: -60px !important;
+  margin-top: -20px !important;
+  top: 50% !important;
+  text-align: center !important;
+}
+.last-img-button-style{
+  color: #d31f26;
+  text-decoration: none;
+  font-size: 17px;
+  border: solid;
+  border-color: #d31f26;
+  padding: 5px;
+  font-family: "HelveticaNeueW02-45Ligh";
+}
+.last-img-button-style:hover{
+  color: #fff;
+  text-decoration: none;
+  background-color: #d31f26;
 }

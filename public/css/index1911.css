@@ -9102,9 +9102,25 @@ button.uk-button {
 .uk-button-inform {
     min-height: 40px
 }
-
 .button__group {
-    display: inline
+    display: inline;
+}
+@media screen and (max-width: 770px){
+    .button__group {
+        padding-top: 20px;
+        padding-bottom: 150px;
+        display: table;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media screen and (min-width: 770px){
+    .button__group {
+        display: inline;
+        padding-top: 20px;
+        padding-bottom: 150px;
+        float: right;
+    }
 }
 
 .kcheckbox {
@@ -13439,7 +13455,7 @@ strong {
     width: 42px;
     height: 42px;
     line-height: 0px;
-    font-size: 150px;
+    font-size: 100px;
     text-align: center;
 }
 .uk-slidenav-contrast-labeling{

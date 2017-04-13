@@ -61,17 +61,9 @@
                 </div>
                 <div class="uk-width-small-1-10 uk-width-medium-1-10 uk-width-large-1-10"></div>
             </div>
-            <!--
-                <ul class="uk-dotnav uk-dotnav-contrast-labeling uk-position-bottom uk-flex-center">
-                    <li data-uk-slideshow-item="0"><a href=""></a></li>
-                    <li data-uk-slideshow-item="1"><a href=""></a></li>
-                    <li data-uk-slideshow-item="2"><a href=""></a></li>
-                    <li data-uk-slideshow-item="3"><a href=""></a></li>
-                </ul>
-            -->
             <div class="uk-grid" data-uk-grid-margin>
-                <div class="uk-width-large-1-10"></div>
-                <div class="uk-width-large-8-10">
+                <div class="uk-width-small-1-10 uk-width-medium-1-10 uk-width-large-1-10"></div>
+                <div class="uk-width-small-8-10 uk-width-medium-8-10 uk-width-large-8-10 uk-container-center">
                     <h3 style="text-align:center;">Labeling Technologies</h3>
 
                     <p style="text-align:center; font-family: HelveticaNeueLTStd-Th,Helvetica Neue,Helvetica,sans-serif; font-size: 17px; line-height: 25px; padding-top:20px;">
@@ -81,17 +73,15 @@
                         hassle-free setup, 24/7 non-stop operation and cost reduction.
                     </p>
                 </div>
-                <div class="uk-width-large-1-10"></div>
+                <div class="uk-width-small-1-10 uk-width-medium-1-10 uk-width-large-1-10"></div>
             </div>
             <div class="uk-grid" data-uk-grid-margin>
-                <div class="uk-width-large-1-10"></div>
-                <div class="uk-width-large-8-10">
+                <div class="uk-width-small-1-10 uk-width-medium-1-10 uk-width-large-1-10"></div>
+                <div class="uk-width-small-8-10 uk-width-medium-8-10 uk-width-large-8-10 uk-container-center">
                     <ul class="uk-grid" data-uk-grid-margin="">
                         <li class="uk-width-medium-1-3 uk-row-first">
-                            <figure class="uk-overlay uk-overlay-hover">
-                                <img src="{{asset('images/labeling/pressure-sensitive-tile.jpg')}}" width="600"
-                                     height="400" alt="Image">
-
+                            <figure class="uk-overlay uk-overlay-hover" style="display: block; max-width: 376px; max-height: 378px; margin-left: auto; margin-right: auto;">
+                                <img src="{{asset('images/labeling/pressure-sensitive-tile.jpg')}}" data-wt-height="378" data-wt-width="376" data-wt-image-ratio="NaN" alt="Image">
                                 <p class="img-txt">Pressure Sensitive</p>
                                 <a class="img-button" href="">Learn More</a>
                                 <figcaption
@@ -107,10 +97,8 @@
                             </figure>
                         </li>
                         <li class="uk-width-medium-1-3">
-                            <figure class="uk-overlay uk-overlay-hover">
-                                <img src="{{asset('images/labeling/wet-labels-tile.jpg')}}" width="600" height="400"
-                                     alt="Image">
-
+                            <figure class="uk-overlay uk-overlay-hover" style="display: block; max-width: 376px; max-height: 378px; margin-left: auto; margin-right: auto;">
+                                <img src="{{asset('images/labeling/wet-labels-tile.jpg')}}" data-wt-height="378" data-wt-width="376" data-wt-image-ratio="NaN" alt="Image">
                                 <p class="img-txt">Cut & Stack</p>
                                 <a class="img-button" href="">Learn More</a>
                                 <figcaption
@@ -125,10 +113,8 @@
                             </figure>
                         </li>
                         <li class="uk-width-medium-1-3">
-                            <figure class="uk-overlay uk-overlay-hover">
-                                <img src="{{asset('images/labeling/hot-melt-tile.jpg')}}" width="600" height="400"
-                                     alt="Image">
-
+                            <figure class="uk-overlay uk-overlay-hover" style="display: block; max-width: 376px; max-height: 378px; margin-left: auto; margin-right: auto;">
+                                <img src="{{asset('images/labeling/hot-melt-tile.jpg')}}" data-wt-height="378" data-wt-width="376" data-wt-image-ratio="NaN" alt="Image">
                                 <p class="img-txt">In-Mold</p>
                                 <a class="img-button" href="">Learn More</a>
                                 <figcaption
@@ -142,10 +128,8 @@
                             </figure>
                         </li>
                         <li class="uk-width-medium-1-3">
-                            <figure class="uk-overlay uk-overlay-hover">
-                                <img src="{{asset('images/labeling/magnetic-strip-tile.jpg')}}" width="600" height="400"
-                                     alt="Image">
-
+                            <figure class="uk-overlay uk-overlay-hover" style="display: block; max-width: 376px; max-height: 378px; margin-left: auto; margin-right: auto;">
+                                <img src="{{asset('images/labeling/magnetic-strip-tile.jpg')}}" data-wt-height="378" data-wt-width="376" data-wt-image-ratio="NaN" alt="Image">
                                 <p class="img-txt">Magnetic Strip</p>
                                 <a class="img-button" href="">Learn More</a>
                                 <figcaption
@@ -160,10 +144,8 @@
                             </figure>
                         </li>
                         <li class="uk-width-medium-1-3">
-                            <figure class="uk-overlay uk-overlay-hover">
-                                <img src="{{asset('images/labeling/3d-label-tile.jpg')}}" width="600" height="400"
-                                     alt="Image">
-
+                            <figure class="uk-overlay uk-overlay-hover" style="display: block; max-width: 376px; max-height: 378px; margin-left: auto; margin-right: auto;">
+                                <img src="{{asset('images/labeling/3d-label-tile.jpg')}}" data-wt-height="378" data-wt-width="376" data-wt-image-ratio="NaN" alt="Image">
                                 <p class="img-txt">3D Label</p>
                                 <a class="img-button" href="">Learn More</a>
                                 <figcaption
@@ -177,32 +159,26 @@
                             </figure>
                         </li>
                         <li class="uk-width-medium-1-3">
-                            <figure class="uk-overlay uk-overlay-hover">
-                                <img src="{{asset('images/labeling/contact-us-tile.jpg')}}" width="600" height="400"
-                                     alt="Image">
-
+                            <figure class="uk-overlay uk-overlay-hover" style="display: block; max-width: 376px; max-height: 378px; margin-left: auto; margin-right: auto;">
+                                <img src="{{asset('images/labeling/contact-us-tile.jpg')}}" data-wt-height="378" data-wt-width="376" data-wt-image-ratio="NaN" alt="Image">
                                 <div class="last-img-button-position">
                                     <a class="last-img-button-style" href="">Contact Us</a>
                                 </div>
                             </figure>
                         </li>
+                        <li class="uk-width-medium-1-3 uk-push-2-3">
+                            <div class="button__group">
+                                <a href="{{ url('/technologies') }}" class="uk-button uk-button-razor uk-button-primary ">
+                                    <span class="button__label" style="text-transform: none;">Back to Technologies</span>
+                                </a>
+                            </div>
+                        </li>
                     </ul>
-                    <div class="button__group" style="padding-top: 20px; padding-bottom: 150px; float: right;">
-                        <a href="{{ url('/technologies') }}" class="uk-button uk-button-razor uk-button-primary ">
-                            <span class="button__label" style="text-transform: none;">Back to Technologies</span>
-                        </a>
-                    </div>
+                    
                     <div class="uk-width-large-1-10"></div>
                 </div>
+                <div class="uk-width-small-1-10 uk-width-medium-1-10 uk-width-large-1-10"></div>
             </div>
-            <div class="uk-width-large-1-10"></div>
-        </div>
-        <div class="uk-container uk-container-center">
-            <div class="section__inside" style="padding-bottom: 35px;">
-                <div class="uk-grid">
-                    <div class="uk-width-1-1">
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="uk-width-large-1-10"></div>
+    </div>
 </section>

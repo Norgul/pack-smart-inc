@@ -48,7 +48,7 @@
                   <div class="uk-grid grid--intended--left grid--intended--right ">
                       <div class="box  box--bottom ">
                           <div class="box--transInner">
-                              <div class="paragraph paragraph--default">
+                              <div class="paragraph paragraph--default" style="font-family: "HelveticaNeueW02-Thin";">
                                   <p>Improve Your Productivity</p>
                               </div>
                               <h1 style="font-size: 3rem;">Speeds of Up to 40,000pph & 0.4mm Accuracy</h1>
@@ -73,7 +73,7 @@
                   <div class="uk-grid grid--intended--left grid--intended--right ">
                       <div class="box  box--bottom ">
                           <div class="box--transInner">
-                              <div class="paragraph paragraph--default">
+                              <div class="paragraph paragraph--default" style="font-family: "HelveticaNeueW02-Thin";">
                                   <p>Improve Your Productivity</p>
                               </div>
                               <h1 style="font-size: 3rem;">Speeds of Up to 40,000pph & 0.4mm Accuracy</h1>
@@ -98,7 +98,7 @@
                     <div class="uk-grid grid--intended--left grid--intended--right ">
                         <div class="box  box--bottom ">
                             <div class="box--transInner">
-                                <div class="paragraph paragraph--default">
+                                <div class="paragraph paragraph--default" style="font-family: "HelveticaNeueW02-Thin";">
                                     <p>Improve Your Productivity</p>
                                 </div>
                                 <h1 style="font-size: 3rem;">Speeds of Up to 40,000pph & 0.4mm Accuracy</h1>

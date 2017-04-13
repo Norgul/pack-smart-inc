@@ -13,69 +13,62 @@
                 <div class="uk-width-small-1-10 uk-width-medium-1-10 uk-width-large-1-10"></div>
                 <div class="uk-width-small-8-10 uk-width-medium-8-10 uk-width-large-8-10 uk-container-center"
                      style="padding-top: 25px; padding-bottom: 25px;">
-                    <div class="uk-slidenav-position" data-uk-slider="{activels: uk-slidenav}" style="height: inherit;">
+                    <div class="uk-slidenav-position" data-uk-slider style="height: inherit;">
                         <div class="uk-slider-container" style="padding: 20px;">
                             <ul class="uk-slider uk-grid uk-grid-width-medium-1-3  uk-grid-width-large-1-5">
-                                <li data-slider-slide="0"
-                                    style="text-align: center; text-transform: uppercase; margin-bottom: 10px;"
-                                    class="uk-slide-before hvr-grow">
-                                    <img src="{{asset('images/labeling/pressure_sensitive.png')}}" draggable="false">
-
-                                    <p>Pressure Sensitive</p>
-                                </li>
-                                <li data-slider-slide="1"
-                                    style="text-align: center; text-transform: uppercase; margin-bottom: 10px;"
-                                    class="uk-slide-before hvr-grow">
-                                    <img src="{{asset('images/labeling/hot_melt.png')}}" draggable="false">
-
-                                    <p>Hot melt</p>
-                                </li>
-                                <li data-slider-slide="2"
-                                    style="text-align: center; text-transform: uppercase; margin-bottom: 10px;"
-                                    class="hvr-grow">
-                                    <img src="{{asset('images/labeling/wet_labels.png')}}" draggable="false">
-
-                                    <p>Wet labels</p>
-                                </li>
-                                <li data-slider-slide="3"
-                                    style="text-align: center; text-transform: uppercase; margin-bottom: 10px;"
-                                    class="uk-slide-after hvr-grow">
-                                    <img src="{{asset('images/labeling/magnetic_strip.png')}}" draggable="false">
-
-                                    <p>Magnetic strip</p>
-                                </li>
-                                <li data-slider-slide="4"
-                                    style="text-align: center; text-transform: uppercase; margin-bottom: 10px;"
-                                    class="uk-slide-after hvr-grow">
-                                    <img src="{{asset('images/labeling/3d_labels.png')}}" draggable="false">
-
-                                    <p>3d labels</p>
-                                </li>
-                                <li data-slider-slide="5"
-                                    style="text-align: center; text-transform: uppercase; margin-bottom: 10px;"
-                                    class="uk-slide-before hvr-grow">
-                                    <img src="{{asset('images/labeling/pressure_sensitive.png')}}" draggable="false">
-
-                                    <p>Pressure Sensitive</p>
-                                </li>
+                                <a href="#" class="slider-li">
+                                    <li data-slider-slide="0"
+                                        class="uk-slide-before hvr-grow">
+                                        <img src="{{asset('images/labeling/pressure_sensitive.png')}}" draggable="true">
+                                        <p>Pressure Sensitive</p>
+                                    </li>
+                                </a>
+                                <a href="#" class="slider-li">
+                                    <li data-slider-slide="1"
+                                        class="uk-slide-before hvr-grow">
+                                        <img src="{{asset('images/labeling/hot_melt.png')}}" draggable="true">
+                                        <p>In-Mold</p>
+                                    </li>
+                                </a>
+                                <a href="#" class="slider-li">
+                                    <li data-slider-slide="2"
+                                        class="hvr-grow">
+                                        <img src="{{asset('images/labeling/wet_labels.png')}}" draggable="true">
+                                        <p>Cut & Stack</p>
+                                    </li>
+                                </a>
+                                <a href="#" class="slider-li">
+                                    <li data-slider-slide="3"
+                                        class="uk-slide-after hvr-grow">
+                                        <img src="{{asset('images/labeling/magnetic_strip.png')}}" draggable="true">
+                                        <p>Magnetic strip</p>
+                                    </li>
+                                </a>
+                                <a href="#" class="slider-li">
+                                    <li data-slider-slide="4"
+                                        class="uk-slide-after hvr-grow">
+                                        <img src="{{asset('images/labeling/3d_labels.png')}}" draggable="true">
+                                        <p>3d labels</p>
+                                    </li>
+                                </a>        
                             </ul>
-                            <!--
+                            
                             <a href="#" class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-previous uk-slidenav-labeling"  data-uk-slider-item="previous" draggable="false"></a>
                             <a href="#" class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-next uk-slidenav-labeling" data-uk-slider-item="next" draggable="false"></a>
-                            -->
+                            
                         </div>
                     </div>
                 </div>
                 <div class="uk-width-small-1-10 uk-width-medium-1-10 uk-width-large-1-10"></div>
             </div>
             <!--
-        <ul class="uk-dotnav uk-dotnav-contrast-labeling uk-position-bottom uk-flex-center">
-            <li data-uk-slideshow-item="0"><a href=""></a></li>
-            <li data-uk-slideshow-item="1"><a href=""></a></li>
-            <li data-uk-slideshow-item="2"><a href=""></a></li>
-            <li data-uk-slideshow-item="3"><a href=""></a></li>
-        </ul>
-    -->
+                <ul class="uk-dotnav uk-dotnav-contrast-labeling uk-position-bottom uk-flex-center">
+                    <li data-uk-slideshow-item="0"><a href=""></a></li>
+                    <li data-uk-slideshow-item="1"><a href=""></a></li>
+                    <li data-uk-slideshow-item="2"><a href=""></a></li>
+                    <li data-uk-slideshow-item="3"><a href=""></a></li>
+                </ul>
+            -->
             <div class="uk-grid" data-uk-grid-margin>
                 <div class="uk-width-large-1-10"></div>
                 <div class="uk-width-large-8-10">
@@ -103,7 +96,7 @@
                                 <a class="img-button" href="">Learn More</a>
                                 <figcaption
                                         class="uk-overlay-panel uk-overlay-background  uk-overlay-top uk-overlay-slide-top"
-                                        style="background: rgba(211, 31, 38, 0.85); font-family:HelveticaNeueW02-45Ligh;font-size: 17px;">
+                                        style="background: rgba(211, 31, 38, 0.85); font-family:HelveticaNeueLTStd-Th, "Helvetica Neue", Helvetica, sans-serif;font-size: 17px;">
                                 <p>Widely-spread over a broad range of industries, the pressure sensitive labels are
                                     easy to handle and apply.
                                     From Printable, Piggyback, Scratch-off, Wafer/Clip Seal, Sensormatic, and Checkpoint
@@ -118,11 +111,11 @@
                                 <img src="{{asset('images/labeling/wet-labels-tile.jpg')}}" width="600" height="400"
                                      alt="Image">
 
-                                <p class="img-txt">Wet Labels</p>
+                                <p class="img-txt">Cut & Stack</p>
                                 <a class="img-button" href="">Learn More</a>
                                 <figcaption
                                         class="uk-overlay-panel uk-overlay-background  uk-overlay-top uk-overlay-slide-top"
-                                        style="background: rgba(211, 31, 38, 0.85);font-family:HelveticaNeueW02-45Ligh;font-size: 17px;">
+                                        style="background: rgba(211, 31, 38, 0.85);font-family:HelveticaNeueLTStd-Th, "Helvetica Neue", Helvetica, sans-serif;font-size: 17px;">
                                 <p>Wet label affixing is a more involving process, for which we developed end-to-end
                                     comprehensive solutions.
                                     You can opt for a minimal solution for affixing labels only,
@@ -136,11 +129,11 @@
                                 <img src="{{asset('images/labeling/hot-melt-tile.jpg')}}" width="600" height="400"
                                      alt="Image">
 
-                                <p class="img-txt">Hot Melt</p>
+                                <p class="img-txt">In-Mold</p>
                                 <a class="img-button" href="">Learn More</a>
                                 <figcaption
                                         class="uk-overlay-panel uk-overlay-background  uk-overlay-top uk-overlay-slide-top"
-                                        style="background: rgba(211, 31, 38, 0.85);font-family:HelveticaNeueW02-45Ligh;font-size: 17px;">
+                                        style="background: rgba(211, 31, 38, 0.85);font-family:HelveticaNeueLTStd-Th, "Helvetica Neue", Helvetica, sans-serif;font-size: 17px;">
                                 <p>Characteristic for the Bottling industry, hot melt labels are generally complete
                                     wraparound labels on containers made of glass, plastic or metal.
                                     We developed high throughput versatile solutions, which can operate with hot glue-,
@@ -157,7 +150,7 @@
                                 <a class="img-button" href="">Learn More</a>
                                 <figcaption
                                         class="uk-overlay-panel uk-overlay-background  uk-overlay-top uk-overlay-slide-top"
-                                        style="background: rgba(211, 31, 38, 0.85);font-family:HelveticaNeueW02-45Ligh;font-size: 17px;">
+                                        style="background: rgba(211, 31, 38, 0.85);font-family:HelveticaNeueLTStd-Th, "Helvetica Neue", Helvetica, sans-serif;font-size: 17px;">
                                 <p>Magnetic Strip is mainly used in Access Applications, such as Banking or IDs.
                                     As a clear example of our flexible design, and even though magnetic strip is not a
                                     conventional label,
@@ -175,7 +168,7 @@
                                 <a class="img-button" href="">Learn More</a>
                                 <figcaption
                                         class="uk-overlay-panel uk-overlay-background  uk-overlay-top uk-overlay-slide-top"
-                                        style="background: rgba(211, 31, 38, 0.85);font-family:HelveticaNeueW02-45Ligh;font-size: 17px;">
+                                        style="background: rgba(211, 31, 38, 0.85);font-family:HelveticaNeueLTStd-Th, "Helvetica Neue", Helvetica, sans-serif;font-size: 17px;">
                                 <p>For your individualized requirements, we offer technologies for 3D object affixing,
                                     such as Velcro,
                                     CD Hub, Felt Pads, and more. You will be amazed by the speed and accuracy of our

@@ -11508,7 +11508,8 @@ div[data-uk-locations] > .uk-width-medium-1-2.uk-width-large-2-3.uk-hidden-small
     padding: 33px 0 0 15px;
     border-right: 1px solid #FFF;
     font-weight: 300;
-    font-size: 16px
+    font-size: 16px;
+    font-family: "HelveticaNeueW02-Thin";
 }
 
 @media (max-width: 1350px) {
@@ -13499,4 +13500,19 @@ strong {
   color: #fff;
   text-decoration: none;
   background-color: #d31f26;
+}
+.slider-li{
+    text-align: center; 
+    text-transform: uppercase; 
+    margin-bottom: 10px;
+    color: #000;
+}
+.slider-li:hover{
+    color: #000;
+}
+.slider-li:active{
+    color: #000;
+}
+.slider-li:visited{
+    color: #000;
 }

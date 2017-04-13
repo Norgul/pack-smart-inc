@@ -7,6 +7,7 @@
     <div class="uk-container uk-container-center">
         <div class="section__inside">
             <div class="uk-grid">
+                <img data-wt-height="684" data-wt-width="960" data-wt-image-ratio="NaN" src="{{asset('images/technologies_labeling.png')}}" class="technologies_labeling_img">
                 <div class="  uk-width-medium-1-3 uk-width-large-1-3 uk-hidden-small">&nbsp;</div>
                 <div class="  uk-width-medium-2-3 uk-width-large-2-3">
                   <h2 class="technologies-tab-h2">{{$title}}</h2>

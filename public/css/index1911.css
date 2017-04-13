@@ -8539,12 +8539,14 @@ a.uk-thumbnail:focus {
 
 .uk-slidenav-previous:before {
     content: "";
-    font-family: FontAwesome
+    font-family: FontAwesome;
+    -webkit-text-stroke: 5px #fff;
 }
 
 .uk-slidenav-next:before {
     content: "";
-    font-family: FontAwesome
+    font-family: FontAwesome;
+    -webkit-text-stroke: 5px #fff;
 }
 
 .uk-slidenav-position {
@@ -13531,4 +13533,19 @@ strong {
 }
 .slider-li:visited{
     color: #000;
+}
+@media screen and (max-width: 768px){
+    .technologies_labeling_img{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 768px){
+    .technologies_labeling_img{
+    display: none;
+    }
 }

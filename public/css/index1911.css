@@ -9108,7 +9108,7 @@ button.uk-button {
     display: inline;
 }
 @media screen and (max-width: 770px){
-    .button__group {
+    .button__group_2 {
         padding-top: 20px;
         padding-bottom: 150px;
         display: table;
@@ -9117,7 +9117,7 @@ button.uk-button {
     }
 }
 @media screen and (min-width: 770px){
-    .button__group {
+    .button__group_2 {
         display: inline;
         padding-top: 20px;
         padding-bottom: 150px;

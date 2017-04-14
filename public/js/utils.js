@@ -12,3 +12,7 @@ $( ".uk-overlay-hover" ).hover(
 $( ".scroll" ).click(function() {
   UIkit.Utils.scrollToElement(UIkit.$('.tab-content'));
 });
+
+function technologiesTabHandler(selectedTab){
+  window.location.href = selectedTab.value;
+}

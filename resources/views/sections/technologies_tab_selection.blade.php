@@ -1,8 +1,7 @@
 <section id="section-technologies_tab_selection">
     <div class="technologies-options-tab">
         <div class="technologies-options">
-            <select name="technologies" id="technologies" data-uk-select class="select" data-parsley-required="true"
-                    required>
+            <select name="technologies" id="technologies" data-uk-select class="select" data-parsley-required="true" onChange="technologiesTabHandler(this)" required>
                 <option value="">Select a technology</option>
                 @foreach($technologies_tabs as $tab)
                     <option value="{{$tab->url_slug}}">

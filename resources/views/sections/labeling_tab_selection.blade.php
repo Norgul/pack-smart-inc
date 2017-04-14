@@ -167,7 +167,7 @@
                             </figure>
                         </li>
                         <li class="uk-width-medium-1-3 uk-push-2-3">
-                            <div class="button__group">
+                            <div class="button__group_2">
                                 <a href="{{ url('/technologies') }}" class="uk-button uk-button-razor uk-button-primary ">
                                     <span class="button__label" style="text-transform: none;">Back to Technologies</span>
                                 </a>

@@ -40,10 +40,26 @@
     <div class="uk-container uk-container-center">
         <div class="section__inside">
             <div class="uk-grid">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-                <div class="row" >
+                    <style>
+                        .nav-custom > li.active > a,
+                        .nav-custom > li.active > a:hover,
+                        .nav-custom > li.active > a:focus,
+                        .nav-custom > div.active {
+                            color: #fff;
+                            background-color: #d31f26;
+                        }
+
+                        .nav-custom > div{
+                            overflow-x:auto;
+                            max-height:292px;
+                            padding: 30px;
+                        }
+                    </style>
+
                     <!-- start: TABS -->
-                    <ul class="nav nav-tabs">
+                    <ul class="nav nav-tabs nav-justified nav-custom">
                         <li class="active">
                             <a data-toggle="tab" href="#overview">
                                 <strong>Overview</strong>
@@ -76,7 +92,7 @@
                         </li>
                     </ul>
 
-                    <div class="tab-content panel" style="border-radius: 1px">
+                    <div class="tab-content panel nav-custom">
                         <div id="overview" class="tab-pane fade active in">
 
                             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
@@ -96,11 +112,11 @@
 
                         </div>
 
-                        <div id="specifications" class="tab-pane fade" style="overflow-x:auto;max-height:292px;padding: 30px;">
+                        <div id="specifications" class="tab-pane fade">
 
                         </div>
 
-                        <div id="applications" class="tab-pane fade" style="overflow-x:auto;max-height:292px;padding: 30px;">
+                        <div id="applications" class="tab-pane fade">
 
                             <div class="col-lg-4">
 
@@ -113,7 +129,7 @@
                             </div>
                         </div>
 
-                        <div id="related_modules" class="tab-pane fade" style="overflow-x:auto;max-height:292px;padding: 30px;">
+                        <div id="related_modules" class="tab-pane fade">
 
                             <div class="row">
                                 <div class="col-lg-3">
@@ -145,7 +161,7 @@
                             </div>
                         </div>
 
-                        <div id="brochures" class="tab-pane fade" style="overflow-x:auto;max-height:292px;padding: 30px;">
+                        <div id="brochures" class="tab-pane fade">
 
                         </div>
 

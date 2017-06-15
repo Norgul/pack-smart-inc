@@ -16,7 +16,7 @@
                     <div class="uk-slidenav-position" data-uk-slider style="height: inherit;">
                         <div class="uk-slider-container" style="padding: 20px;">
                             <ul class="uk-slider uk-grid uk-grid-width-medium-1-3  uk-grid-width-large-1-5">
-                                <a href="#" class="slider-li">
+                                <a href="{{url('pressure_sensitive')}}" class="slider-li">
                                     <li data-slider-slide="0"
                                         class="uk-slide-before hvr-grow">
                                         <img src="{{asset('images/labeling/pressure_sensitive.png')}}" draggable="true">

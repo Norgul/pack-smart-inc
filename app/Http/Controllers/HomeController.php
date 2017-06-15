@@ -45,4 +45,11 @@ class HomeController extends Controller
         $header_categories = HeaderCategory::all();
         return view('labeling', compact('header_categories', 'main_menu_categories'));
     }
+
+    public function pressure_sensitive()
+    {
+        $main_menu_categories = MainMenuCategory::all();
+        $header_categories = HeaderCategory::all();
+        return view('pressure_sensitive', compact('header_categories', 'main_menu_categories'));
+    }
 }

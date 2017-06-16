@@ -359,29 +359,25 @@
 
                         <div id="videos" class="tab-pane fade uk-grid" data-uk-grid-match style="margin-top: 0px;">
                             <div id="video" class="uk-width-1-6 uk-height-1-1">
-                                
-                                    <a class="uk-thumbnail uk-thumbnail-expand" href="#">
-                                        <img src="https://img.youtube.com/vi/4c0eBTSiYbI/hqdefault.jpg">
-                                    </a>
-                                    Magnetic Stripe Application
-                                    <div class="uk-grid-margin"></div>
-                                    <a class="uk-thumbnail uk-thumbnail-expand" href="#">
-                                        <img src="https://img.youtube.com/vi/I6sk_SC-Bas/hqdefault.jpg">
-                                    </a>
-                                    Velcro Application                          
-                                    <div class="uk-grid-margin"></div>
-                                    <a class="uk-thumbnail uk-thumbnail-expand" href="#">
-                                        <img src="https://img.youtube.com/vi/lCxFRCnACe4/hqdefault.jpg">
-                                    </a>
-                                    Source Tag, Check Point Tag and RFID Application 
-                                
+                                <a class="uk-thumbnail uk-thumbnail-expand" href="#">
+                                    <img src="https://img.youtube.com/vi/4c0eBTSiYbI/hqdefault.jpg">
+                                </a>
+                                Magnetic Stripe Application
+                                <div class="uk-grid-margin"></div>
+                                <a class="uk-thumbnail uk-thumbnail-expand" href="#">
+                                    <img src="https://img.youtube.com/vi/I6sk_SC-Bas/hqdefault.jpg">
+                                </a>
+                                Velcro Application                          
+                                <div class="uk-grid-margin"></div>
+                                <a class="uk-thumbnail uk-thumbnail-expand" href="#">
+                                    <img src="https://img.youtube.com/vi/lCxFRCnACe4/hqdefault.jpg">
+                                </a>
+                                Source Tag, Check Point Tag and RFID Application 
                             </div>
                             <div class="uk-width-5-6 uk-height-1-1">
-                                <div class="uk-panel">
-                                    <div id="video-url">
-                                        <iframe class="uk-panel uk-width-1-1 uk-height-1-1" src="https://www.youtube.com/embed/4c0eBTSiYbI"></iframe>  
-                                    </div>       
-                                </div>
+                                <div id="video-url" style="min-height:inherit;">
+                                    <iframe class="uk-panel uk-width-1-1 uk-height-1-1" style="min-height:inherit;" src="https://www.youtube.com/embed/4c0eBTSiYbI"></iframe>  
+                                </div>       
                             </div>
                         </div>
                         

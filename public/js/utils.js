@@ -29,3 +29,9 @@ $(document).ready(function() {
         return false;
     });
 });
+
+$('#video-iframe').ready(function() {
+    var height = $("#videos").height();
+    console.log(height);
+    $("#video-url").height(height);
+});

@@ -16,8 +16,9 @@
 
                         .nav-custom > div{
                             overflow-x:auto;
-                            max-height:600px;
+                            max-height:700px;
                             padding: 30px;
+                            margin-left: 0px;
                         }
                     </style>
                     
@@ -56,7 +57,7 @@
                     </ul>
                     <div class="tab-content panel nav-custom">
                             <div id="overview" class="tab-pane fade active in uk-grid">
-                                <div class="uk-width-2-6">
+                                <div class="uk-width-2-6" style="padding-left: 0px;">
                                     <a class="uk-thumbnail uk-thumbnail-expand" href="#">
                                         <img src="{{asset('images/labeling/pressure-sensitive-tile.jpg')}}">
                                     </a>
@@ -127,7 +128,7 @@
                             </div>
 
                         <div id="specifications" class="tab-pane fade uk-grid" style="margin-top: 0px;">
-                            <div class="uk-width-1-3">
+                            <div class="uk-width-1-3" style="padding-left: 0px;">
                                 <div class="uk-panel">
                                     <a class="uk-thumbnail uk-thumbnail-expand" href="#">
                                         <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
@@ -184,7 +185,7 @@
                         </div>
 
                         <div id="applications" class="tab-pane fade uk-grid" style="margin-top: 0px;">
-                            <div class="uk-width-1-3">
+                            <div class="uk-width-1-3" style="padding-left: 0px;">
                                 <ul>
                                     <li>
                                         Velcro
@@ -309,47 +310,49 @@
                             </div>
                         </div>
 
-                        <div id="related_modules" class="tab-pane fade uk-grid" style="margin-top: 0px;">                      
-                            <div class="uk-width-1-4 uk-row-first">
-                                <a class="uk-thumbnail uk-thumbnail-expand" href="#">
-                                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
-                                </a>
-                            </div>
-                            <div class="uk-width-1-4">
-                                <a class="uk-thumbnail uk-thumbnail-expand" href="#">
-                                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
-                                </a>
-                            </div>
-                            <div class="uk-width-1-4">
-                                <a class="uk-thumbnail uk-thumbnail-expand" href="#">
-                                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
-                                </a>
-                            </div>
-                            <div class="uk-width-1-4">
-                                <a class="uk-thumbnail uk-thumbnail-expand" href="#">
-                                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
-                                </a>
-                            </div>
+                        <div id="related_modules" class="tab-pane fade" style="margin-top: 0px;">
+                            <div class="uk-grid" style="padding-left: 0px;">                      
+                                <div class="uk-width-1-4 uk-row-first">
+                                    <a class="uk-thumbnail uk-thumbnail-expand" href="#">
+                                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
+                                    </a>
+                                </div>
+                                <div class="uk-width-1-4">
+                                    <a class="uk-thumbnail uk-thumbnail-expand" href="#">
+                                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
+                                    </a>
+                                </div>
+                                <div class="uk-width-1-4">
+                                    <a class="uk-thumbnail uk-thumbnail-expand" href="#">
+                                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
+                                    </a>
+                                </div>
+                                <div class="uk-width-1-4">
+                                    <a class="uk-thumbnail uk-thumbnail-expand" href="#">
+                                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
+                                    </a>
+                                </div>
 
-                            <div class="uk-width-1-4 uk-grid-margin uk-row-first">
-                                <a class="uk-thumbnail uk-thumbnail-expand" href="#">
-                                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
-                                </a>
-                            </div>
-                            <div class="uk-width-1-4 uk-grid-margin">
-                                <a class="uk-thumbnail uk-thumbnail-expand" href="#">
-                                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
-                                </a>
-                            </div>
-                            <div class="uk-width-1-4 uk-grid-margin">
-                                <a class="uk-thumbnail uk-thumbnail-expand" href="#">
-                                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
-                                </a>
-                            </div>
-                            <div class="uk-width-1-4 uk-grid-margin">
-                                <a class="uk-thumbnail uk-thumbnail-expand" href="#">
-                                    <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
-                                </a>
+                                <div class="uk-width-1-4 uk-grid-margin uk-row-first">
+                                    <a class="uk-thumbnail uk-thumbnail-expand" href="#">
+                                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
+                                    </a>
+                                </div>
+                                <div class="uk-width-1-4 uk-grid-margin">
+                                    <a class="uk-thumbnail uk-thumbnail-expand" href="#">
+                                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
+                                    </a>
+                                </div>
+                                <div class="uk-width-1-4 uk-grid-margin">
+                                    <a class="uk-thumbnail uk-thumbnail-expand" href="#">
+                                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
+                                    </a>
+                                </div>
+                                <div class="uk-width-1-4 uk-grid-margin">
+                                    <a class="uk-thumbnail uk-thumbnail-expand" href="#">
+                                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjUwIiB2aWV3Qm94PSIwIDAgMTAwIDUwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48IS0tClNvdXJjZSBVUkw6IGhvbGRlci5qcy8xMDB4NTAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNS4yLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnMvPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iNTAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIyNy40Mjk2ODc1IiB5PSIyOS41IiBzdHlsZT0iZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQiPjEwMHg1MDwvdGV4dD48L2c+PC9zdmc+" alt="100x50" data-src="holder.js/100x50/auto" data-holder-rendered="true">
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
@@ -357,8 +360,8 @@
 
                         </div>
 
-                        <div id="videos" class="tab-pane fade uk-grid" data-uk-grid-match style="margin-top: 0px;">
-                            <div id="video" class="uk-width-1-6 uk-height-1-1">
+                        <div id="videos" class="tab-pane fade uk-grid" style="margin-top: 0px;" data-uk-grid-match="{target:'.uk-panel'}">
+                            <div id="video" class="uk-panel uk-width-1-6 uk-height-1-1" style="padding-left: 0px;">
                                 <a class="uk-thumbnail uk-thumbnail-expand" href="#">
                                     <img src="https://img.youtube.com/vi/4c0eBTSiYbI/hqdefault.jpg">
                                 </a>
@@ -376,7 +379,7 @@
                             </div>
                             <div class="uk-width-5-6 uk-height-1-1">
                                 <div id="video-url" style="min-height:inherit;">
-                                    <iframe class="uk-panel uk-width-1-1 uk-height-1-1" style="min-height:inherit;" src="https://www.youtube.com/embed/4c0eBTSiYbI"></iframe>  
+                                    <iframe id="video-iframe" class="uk-panel uk-width-1-1 uk-height-1-1" style="min-height:inherit;" src="https://www.youtube.com/embed/4c0eBTSiYbI"></iframe>  
                                 </div>       
                             </div>
                         </div>

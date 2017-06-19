@@ -35,3 +35,7 @@ $('#video-iframe').ready(function() {
     console.log(height);
     $("#video-url").height(height);
 });
+
+$(".scroll-to-contact").click(function() {
+    UIkit.Utils.scrollToElement(UIkit.$('#section-contact'));
+});

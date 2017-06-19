@@ -4,6 +4,70 @@
         <div class="section__inside">
             <div class="uk-grid">
                 <div class="uk-width-1-1">
+                    <div class="uk-grid">
+                        <div class="uk-width-4-6">
+                            <h3>Pack-Smart HSL-60 - Extreme Speed Label Applicator</h3>
+                            </br>
+                            <p>
+                                Pack-Smart HSL Series labelers complete the job seamlessly while running 24             </br>
+                                hours a day, 7 days a week. By delivering placement accuracy of +/- 0.4 mm,             </br>
+                                the labelers can deliver high quality even when running at full capacity. The           </br>
+                                labelers synchronize with the product speed and consistently deliver perfect results.
+                            </p>
+                            </br>
+                            <h3>Highlights</h3>
+                            </br>
+                            <ul>
+                                <li>Apply 400 labels per minute with WZero Defects</li>
+                                <li>Stick Vecro buttons on any box with accuracy of .4 mm</li>
+                                <li>Don't stop your production for Roll Changes</li>
+                            </ul>
+                            </br>
+                            <h3>Applications</h3>
+                            </br>
+                            <div class="uk-grid">
+                                <div class="uk-width-1-2">
+                                    <ul>
+                                        <li>Smart and Active Labels</li>
+                                        <li>Plastic Card</li>
+                                        <li>Scratch Off</li>
+                                        <li>Magnetic Stripe</li>
+                                        <li>Plastic Rigid Containers</li>
+                                        <li>Paperboard</li>
+                                        <li>Folding Carton</li>
+                                        <li>Labeling on Corrugate</li>
+                                    </ul>
+                                </div>
+                                <div class="uk-width-1-2">
+                                    <ul>
+                                        <li>Shrink Wrap</li>
+                                        <li>Dairy</li>
+                                        <li>Pharmaceutical and Medical Devices</li>
+                                        <li>Tobacco</li>
+                                        <li>Commercial Printing and Direct Mail</li>
+                                        <li>Electrical Components and Electronics</li>
+                                        <li>Reatail-Ready Packaging</li>
+                                        <li>And Many More!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-2-6" style="padding-left: 0px;">
+                            <img src="{{asset('images/technologies_labeling.png')}}">
+                        </diV>
+                    </div>
+                </div>
+                <div class="uk-width-1-1" style="margin-top: 30px; margin-bottom: 30px;">
+                    <div class="button__group">
+                        <a href="{{url('not-set-yet')}}" class="uk-button uk-button-razor uk-button-primary" style="text-transform: capitalize;">
+                            <span class="button__label">Request Info</span>
+                        </a>
+                        <a href="#" class="scroll-to-contact uk-button uk-button-razor button--default" style="text-transform: capitalize;">
+                            <span class="button__label">Contact Us</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="uk-width-1-1">
 
                     <style>
                         .nav-custom > li.active > a,

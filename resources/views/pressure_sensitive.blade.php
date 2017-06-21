@@ -2,8 +2,7 @@
 @section('title', 'Pressure sensitive')
 
 @section('content')
-
-    @include('sections.pressure_sensitive_cartwheel')
+    @include('sections.breadcrumbs_fake')
     @include('sections.pressure_sensitive_table')
     @include('sections.contact')
     @include('sections.location')

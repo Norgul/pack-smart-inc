@@ -25,6 +25,14 @@ Route::get('/office-locations', 'OfficeLocationsController@index');
 Route::get('/technologies', 'HomeController@technologies');
 Route::get('/labeling', 'HomeController@labeling');
 Route::get('/pressure_sensitive', 'HomeController@pressure_sensitive');
+
+Route::get('/about', 'HomeController@about');
+Route::get('/contact', 'HomeController@contact');
+Route::get('/market-segments', 'HomeController@market_segments');
+Route::get('/solutions', 'HomeController@solutions');
+Route::get('/support', 'HomeController@support');
+
+
 /*
  * Header routes
  */

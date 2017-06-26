@@ -9,47 +9,68 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-/*    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-*/
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
-        $main_menu_categories = MainMenuCategory::all();
-        $header_categories = HeaderCategory::all();
+        list($main_menu_categories, $header_categories) = $this->menuImports();
         return view('index', compact('header_categories', 'main_menu_categories'));
     }
 
     public function technologies()
     {
-        $main_menu_categories = MainMenuCategory::all();
-        $header_categories = HeaderCategory::all();
+        list($main_menu_categories, $header_categories) = $this->menuImports();
         $technologies_tabs = TechnologiesTab::all();
         return view('technologies', compact('header_categories', 'main_menu_categories', 'technologies_tabs'));
     }
 
     public function labeling()
     {
-        $main_menu_categories = MainMenuCategory::all();
-        $header_categories = HeaderCategory::all();
+        list($main_menu_categories, $header_categories) = $this->menuImports();
         return view('labeling', compact('header_categories', 'main_menu_categories'));
     }
 
     public function pressure_sensitive()
     {
+        list($main_menu_categories, $header_categories) = $this->menuImports();
+        return view('pressure_sensitive', compact('header_categories', 'main_menu_categories'));
+    }
+
+    public function about()
+    {
+        list($main_menu_categories, $header_categories) = $this->menuImports();
+        return view('about', compact('header_categories', 'main_menu_categories'));
+    }
+
+    public function contact()
+    {
+        list($main_menu_categories, $header_categories) = $this->menuImports();
+        return view('contact', compact('header_categories', 'main_menu_categories'));
+    }
+
+    public function market_segments()
+    {
+        list($main_menu_categories, $header_categories) = $this->menuImports();
+        return view('market_segments', compact('header_categories', 'main_menu_categories'));
+    }
+
+    public function solutions()
+    {
+        list($main_menu_categories, $header_categories) = $this->menuImports();
+        return view('solutions', compact('header_categories', 'main_menu_categories'));
+    }
+
+    public function support()
+    {
+        list($main_menu_categories, $header_categories) = $this->menuImports();
+        return view('support', compact('header_categories', 'main_menu_categories'));
+    }
+
+    /**
+     * @return array
+     */
+    public function menuImports()
+    {
         $main_menu_categories = MainMenuCategory::all();
         $header_categories = HeaderCategory::all();
-        return view('pressure_sensitive', compact('header_categories', 'main_menu_categories'));
+        return array($main_menu_categories, $header_categories);
     }
 }

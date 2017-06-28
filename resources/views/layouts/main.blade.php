@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="{{asset('css/print1911.css')}}" media="print"/>
     <link rel="stylesheet" href="{{asset('css/technologies_tabs.css')}}" media="print"/>
 
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
+
     <script src="{{asset('js/placeholders.min.js')}}" defer></script>
     <script src="{{asset('js/jquery-3.1.1.min.js')}}" defer></script>
     <script src="{{asset('js/jquery.validate.js')}}" defer></script>

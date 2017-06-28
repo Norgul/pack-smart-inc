@@ -45,5 +45,7 @@
     </div>
 </section>
 <script src="{{asset('js/utils.js')}}" defer></script>
+
+@yield('extra_scripts')
 </body>
 </html>

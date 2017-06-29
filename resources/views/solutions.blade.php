@@ -8,240 +8,397 @@
     <section id="carousel">
         <div class="container">
             <div class="row">
+                <div class="col-lg-12 text-center" style="margin-bottom:40px;">
+                    <h1>Our Solutions</h1>
+                </div>
                 <div class="col-md-6">
-                    <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
-                    <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                    <div class="carousel slide" id="fade-quote-carousel-left" data-ride="carousel" data-interval="false">
                         <!-- Carousel indicators -->
                         <ol class="carousel-indicators">
-                            <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="5"></li>
+                            <li data-target="#fade-quote-carousel-left" data-slide-to="0"></li>
+                            <li data-target="#fade-quote-carousel-left" data-slide-to="1"></li>
+                            <li data-target="#fade-quote-carousel-left" data-slide-to="2" class="active"></li>
+                            <li data-target="#fade-quote-carousel-left" data-slide-to="3"></li>
+                            <li data-target="#fade-quote-carousel-left" data-slide-to="4"></li>
+                            <li data-target="#fade-quote-carousel-left" data-slide-to="5"></li>
                         </ol>
                         <!-- Carousel items -->
                         <div class="carousel-inner">
                             <div class="item">
-                                <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="text-align:right;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="text-align:right;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="active item">
-                                <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="text-align:right;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="text-align:right;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="text-align:right;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="text-align:right;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
-                    <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                    <div class="carousel slide" id="fade-quote-carousel-right" data-ride="carousel" data-interval="false">
                         <!-- Carousel indicators -->
                         <ol class="carousel-indicators">
-                            <li data-target="#fade-quote-carousel" data-slide-to="0"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="2" class="active"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="4"></li>
-                            <li data-target="#fade-quote-carousel" data-slide-to="5"></li>
+                            <li data-target="#fade-quote-carousel-right" data-slide-to="0"></li>
+                            <li data-target="#fade-quote-carousel-right" data-slide-to="1"></li>
+                            <li data-target="#fade-quote-carousel-right" data-slide-to="2" class="active"></li>
+                            <li data-target="#fade-quote-carousel-right" data-slide-to="3"></li>
+                            <li data-target="#fade-quote-carousel-right" data-slide-to="4"></li>
+                            <li data-target="#fade-quote-carousel-right" data-slide-to="5"></li>
                         </ol>
                         <!-- Carousel items -->
                         <div class="carousel-inner">
                             <div class="item">
-                                <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="active item">
-                                <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="item">
-                                <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
-                                <blockquote>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
-                                        eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
-                                        molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
-                                </blockquote>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -260,7 +417,9 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="col-lg-9">
-                    text
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
                 </div>
                 <div class="col-lg-3">
                     picture
@@ -271,7 +430,9 @@
                     picture
                 </div>
                 <div class="col-lg-9">
-                    text
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
                 </div>
             </div>
         </div>
@@ -279,7 +440,9 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="col-lg-9">
-                    text
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
                 </div>
                 <div class="col-lg-3">
                     picture
@@ -290,7 +453,9 @@
                     picture
                 </div>
                 <div class="col-lg-9">
-                    text
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla
+                                            eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque
+                                            molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
                 </div>
             </div>
         </div>
@@ -320,6 +485,10 @@
             padding-bottom: 100px;
         }
 
+        p{
+            text-align: justify;
+        }
+
         .quote {
             color: rgba(0, 0, 0, .1);
             text-align: center;
@@ -330,39 +499,39 @@
         /*    Carousel Fade Transition   */
         /*-------------------------------*/
 
-        #fade-quote-carousel.carousel {
+        .carousel {
             padding-bottom: 60px;
         }
 
-        #fade-quote-carousel.carousel .carousel-inner .item {
+        .carousel .carousel-inner .item {
             opacity: 0;
             -webkit-transition-property: opacity;
             -ms-transition-property: opacity;
             transition-property: opacity;
         }
 
-        #fade-quote-carousel.carousel .carousel-inner .active {
+        .carousel .carousel-inner .active {
             opacity: 1;
             -webkit-transition-property: opacity;
             -ms-transition-property: opacity;
             transition-property: opacity;
         }
 
-        #fade-quote-carousel.carousel .carousel-indicators {
+        .carousel .carousel-indicators {
             bottom: 10px;
         }
 
-        #fade-quote-carousel.carousel .carousel-indicators > li {
+        .carousel .carousel-indicators > li {
             background-color: #e84a64;
             border: none;
         }
 
-        #fade-quote-carousel blockquote {
+         blockquote {
             text-align: center;
             border: none;
         }
 
-        #fade-quote-carousel .profile-circle {
+         .profile-circle {
             width: 100px;
             height: 100px;
             margin: 0 auto;

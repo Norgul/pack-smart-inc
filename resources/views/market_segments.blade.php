@@ -7,6 +7,8 @@
 
     {{--extra content--}}
 
+    @include('sections.market_segments')
+
     @include('sections.contact')
     @include('sections.location')
     @include('sections.footer_menu')

@@ -111,39 +111,39 @@
                     <div class="uk-slidenav-position" data-uk-slider style="height: inherit;">
                         <div class="uk-slider-container" style="padding: 20px;">
                             <ul class="uk-slider uk-grid uk-grid-width-medium-1-3  uk-grid-width-large-1-5">
-                                <a href="{{url('pressure_sensitive')}}" class="slider-li">
+                                <a href="#" class="slider-li">
                                     <li data-slider-slide="0"
                                         class="uk-slide-before hvr-grow">
-                                        <img src="{{asset('images/market_segments/sim-cards.jpeg')}}" draggable="true">
-                                        <p>Pressure Sensitive</p>
+                                        <img src="{{asset('images/market_segments/market_segment_1.png')}}" draggable="true">
+                                        <p>market_segment_1</p>
                                     </li>
                                 </a>
                                 <a href="#" class="slider-li">
                                     <li data-slider-slide="1"
                                         class="uk-slide-before hvr-grow">
-                                        <img src="{{asset('images/market_segments/ct-how-chip-cards-work.jpg')}}" draggable="true">
-                                        <p>In-Mold</p>
+                                        <img src="{{asset('images/market_segments/market_segment_2.png')}}" draggable="true">
+                                        <p>market_segment_2</p>
                                     </li>
                                 </a>
                                 <a href="#" class="slider-li">
                                     <li data-slider-slide="2"
                                         class="hvr-grow">
-                                        <img src="{{asset('images/market_segments/t-mobile-pack.jpg')}}" draggable="true">
-                                        <p>Cut & Stack</p>
+                                        <img src="{{asset('images/market_segments/market_segment_3.png')}}" draggable="true">
+                                        <p>market_segment_3</p>
                                     </li>
                                 </a>
                                 <a href="#" class="slider-li">
                                     <li data-slider-slide="3"
                                         class="uk-slide-after hvr-grow">
-                                        <img src="{{asset('images/market_segments/ID-Card.jpg')}}" draggable="true">
-                                        <p>Magnetic strip</p>
+                                        <img src="{{asset('images/market_segments/market_segment_4.png')}}" draggable="true">
+                                        <p>market_segment_4</p>
                                     </li>
                                 </a>
                                 <a href="#" class="slider-li">
                                     <li data-slider-slide="4"
                                         class="uk-slide-after hvr-grow">
-                                        <img src="{{asset('images/market_segments/rewersy kart z paskiem.jpg')}}" draggable="true">
-                                        <p>3d labels</p>
+                                        <img src="{{asset('images/market_segments/market_segment_5.png')}}" draggable="true">
+                                        <p>market_segment_5</p>
                                     </li>
                                 </a>        
                             </ul>

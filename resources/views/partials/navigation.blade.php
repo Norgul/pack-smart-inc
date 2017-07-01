@@ -40,8 +40,10 @@
     </div>
 
     <div class="header__right">
+        {{--
         <a href="#" class="hamburger uk-link-muted header--desktop"><span></span></a>
         <a href="#" class="hamburger-mobile uk-link-muted header--mobile"><span></span></a>
+        --}}
         <a href="#" class="search__btn uk-link-muted" data-uk-quicksearch><span></span></a>
         <a href="#" class="globe__btn uk-link-muted"><span></span></a>
         <a href="{{url('/')}}" class="logo">

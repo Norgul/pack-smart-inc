@@ -32,12 +32,15 @@
                             </div>
                         </div>
                     </div>
+
+                    {{--
                     <div class="button__group">
                         <a href="{{url('about/innovations')}}"
                            class="uk-button uk-button-razor uk-button-primary">
                             <span class="button__label"><span>more</span></span>
                         </a>
                     </div>
+                    --}}
                 </div>
                 <div class="  uk-width-medium-1-3 uk-width-large-1-3 uk-hidden-small">&nbsp;</div>
             </div>

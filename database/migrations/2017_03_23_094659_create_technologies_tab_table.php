@@ -15,8 +15,11 @@ class CreateTechnologiesTabTable extends Migration
     {
       Schema::create('technologies_tabs', function (Blueprint $table) {
           $table->increments('id');
-          $table->string('name');
+          $table->string('title');
+          $table->string('subtitle');
           $table->string('url_slug');
+          $table->text('description');
+          $table->string('image');
           $table->timestamps();
       });
     }

@@ -52,14 +52,14 @@
             </div>
         </div>
 
-        <div class="uk-grid" style="padding-left:0px;">
-            <div class="uk-width-large-1-10" style="padding-left:0px;">
+        <div class="uk-grid">
+            <div class="uk-width-large-1-10">
             </div>
-            <div class="uk-width-large-8-10" style="padding-left:0px;">
+            <div class="uk-width-large-8-10">
                 <div class="uk-grid" data-uk-grid-margin>
-                    <div class="uk-width-large-2-10" style="padding-left:0px;">
+                    <div class="uk-width-large-2-10">
                     </div>
-                    <div class="uk-width-large-6-10" style="padding-left:0px;">
+                    <div class="uk-width-large-6-10">
                         <div class="uk-container-center" style="display: flex;">
                             <h3 class="uk-container-center" style="display: inline-block;text-align: center;margin-top: 50px;text-transform: uppercase;
                             background-color: red;padding: 5px;padding-top: 20px;color: white;font-weight: bold;">
@@ -75,8 +75,8 @@
                     </div>
                     <div class="uk-width-small-8-10 uk-width-medium-8-10 uk-width-large-8-10 uk-container-center"
                          style="padding-top: 25px; padding-bottom: 25px;">
-                        <div class="uk-grid" data-uk-grid-margin>
-                            <div class="uk-width-large-1-3">
+                        <div class="uk-grid" data-uk-grid-margin style="margin-left: 15px;">
+                            <div class="uk-width-large-1-3" style="padding-right:35px;">
                                 <h4 style="font-weight: 900;">Personalization</h4>
                                 <ul>
                                     <li>Duplex DOD with resolutions up to 600dpi</li>
@@ -84,9 +84,8 @@
                                     <li>Mag stripe and chip encoding</li>
                                 </ul>
                             </div>
-                            <div class="uk-width-large-1-3" style="
-                            border-left: solid;border-left-width: 2px;border-left-color: grey;
-                            border-right: solid;border-right-width: 2px;border-right-color: grey;
+                            <div class="uk-width-large-1-3 verticalBorders" style="
+                            padding-right:35px;
                         ">
                                 <h4 style="font-weight: 900;">Data Capturing & Tracking</h4>
                                 <ul>
@@ -96,7 +95,7 @@
                                     <li>Complete in-line data verification and back-end reporting</li>
                                 </ul>
                             </div>
-                            <div class="uk-width-large-1-3">
+                            <div class="uk-width-large-1-3" style="padding-right:35px;">
                                 <h4 style="font-weight: 900;">Security</h4>
                                 <ul>
                                     <li>Multiple secure sealing capabilities</li>
@@ -263,3 +262,33 @@
     @include('sections.footer_menu')
 
 @endsection
+
+@section('extra_scripts')
+
+    <style>
+    .verticalBorders {
+            border-left: solid;
+            border-left-width: 2px;
+            border-left-color: grey;
+            border-right: solid;
+            border-right-width: 2px;
+            border-right-color: grey;
+        }
+    @media (max-width:960px){
+        .verticalBorders {
+            border-left: none;
+            border-right: none;
+        }
+    }​
+    @media (min-width:960px){
+        .verticalBorders {
+            border-left: solid;
+            border-left-width: 2px;
+            border-left-color: grey;
+            border-right: solid;
+            border-right-width: 2px;
+            border-right-color: grey;
+        }
+    }​
+    </style>
+@stop

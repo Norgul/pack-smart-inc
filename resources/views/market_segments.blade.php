@@ -55,26 +55,20 @@
         <div class="uk-grid">
             <div class="uk-width-large-1-10">
             </div>
-            <div class="uk-width-large-8-10">
-                <div class="uk-grid" data-uk-grid-margin>
-                    <div class="uk-width-large-2-10">
-                    </div>
-                    <div class="uk-width-large-6-10">
-                        <div class="uk-container-center" style="display: flex;">
-                            <h3 class="uk-container-center" style="display: inline-block;text-align: center;margin-top: 50px;text-transform: uppercase;
-                            background-color: red;padding: 5px;padding-top: 20px;color: white;font-weight: bold;">
-                                Pack-smart advantage
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="uk-width-large-2-10">
-                    </div>
-                </div>
+            <div class="uk-width-large-8-10 uk-container-center">
                 <div class="uk-grid" data-uk-grid-margin>
                     <div class="uk-width-small-1-10 uk-width-medium-1-10 uk-width-large-1-10">
                     </div>
                     <div class="uk-width-small-8-10 uk-width-medium-8-10 uk-width-large-8-10 uk-container-center"
                          style="padding-top: 25px; padding-bottom: 25px;">
+                            <div class="uk-grid" data-uk-grid-margin style="margin-left: 20px;">
+                                <div class="uk-container-center" style="display: flex;padding-left: 0;">
+                                    <h3 class="uk-container-center" style="display: inline-block;text-align: center;margin-bottom: 50px;text-transform: uppercase;
+                                    background-color: red;padding: 5px;padding-top: 20px;color: white;font-weight: bold;">
+                                        Pack-smart advantage
+                                    </h3>
+                                </div>
+                            </div>
                         <div class="uk-grid" data-uk-grid-margin style="margin-left: 20px;">
                             <div class="uk-width-large-1-3" style="padding-right:35px;">
                                 <h4 style="font-weight: 900;">Personalization</h4>

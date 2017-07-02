@@ -75,7 +75,7 @@
                     </div>
                     <div class="uk-width-small-8-10 uk-width-medium-8-10 uk-width-large-8-10 uk-container-center"
                          style="padding-top: 25px; padding-bottom: 25px;">
-                        <div class="uk-grid" data-uk-grid-margin style="margin-left: 15px;">
+                        <div class="uk-grid" data-uk-grid-margin style="margin-left: 20px;">
                             <div class="uk-width-large-1-3" style="padding-right:35px;">
                                 <h4 style="font-weight: 900;">Personalization</h4>
                                 <ul>

@@ -52,14 +52,14 @@
             </div>
         </div>
 
-        <div class="uk-grid">
-            <div class="uk-width-large-1-10">
+        <div class="uk-grid" style="padding-left:0px;">
+            <div class="uk-width-large-1-10" style="padding-left:0px;">
             </div>
-            <div class="uk-width-large-8-10">
+            <div class="uk-width-large-8-10" style="padding-left:0px;">
                 <div class="uk-grid" data-uk-grid-margin>
-                    <div class="uk-width-large-2-10">
+                    <div class="uk-width-large-2-10" style="padding-left:0px;">
                     </div>
-                    <div class="uk-width-large-6-10">
+                    <div class="uk-width-large-6-10" style="padding-left:0px;">
                         <div class="uk-container-center" style="display: flex;">
                             <h3 class="uk-container-center" style="display: inline-block;text-align: center;margin-top: 50px;text-transform: uppercase;
                             background-color: red;padding: 5px;padding-top: 20px;color: white;font-weight: bold;">
@@ -162,6 +162,81 @@
                                             <img src="{{asset('images/market_segments/market_segment_5.png')}}"
                                                  draggable="true">
                                             <p>market_segment_5</p>
+                                        </li>
+                                    </a>
+                                </ul>
+
+                                <a href="#"
+                                   class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-previous uk-slidenav-labeling"
+                                   data-uk-slider-item="previous" draggable="false"></a>
+                                <a href="#"
+                                   class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-next uk-slidenav-labeling"
+                                   data-uk-slider-item="next" draggable="false"></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-small-1-10 uk-width-medium-1-10 uk-width-large-1-10"></div>
+                </div>
+                <div class="uk-width-large-1-10"></div>
+            </div>
+        </div>
+        <div class="uk-grid" data-uk-grid-margin style="margin-top: -70px;">
+            <div class="uk-width-large-1-10"></div>
+            <div class="uk-width-large-8-10">
+                <div class="uk-grid uk-grid-collapse" data-uk-grid-margin>
+                    <div class="uk-width-small-1-10 uk-width-medium-1-10 uk-width-large-1-10"></div>
+                    <div class="uk-width-small-8-10 uk-width-medium-8-10 uk-width-large-8-10 uk-container-center"
+                         style="padding-top: 25px; padding-bottom: 25px;">
+                        <div class="uk-slidenav-position" data-uk-slider style="height: inherit;">
+                            <div class="uk-slider-container" style="padding: 20px;">
+                                <ul class="uk-slider uk-grid uk-grid-width-medium-1-3  uk-grid-width-large-1-5">
+                                    <a href="#" class="slider-li">
+                                        <li data-slider-slide="0"
+                                            class="uk-slide-before hvr-grow">
+                                            <img src="{{asset('images/market_segments/market_sub_seg_1.png')}}"
+                                                 draggable="true">
+                                            <p>market_sub_seg_1</p>
+                                        </li>
+                                    </a>
+                                    <a href="#" class="slider-li">
+                                        <li data-slider-slide="1"
+                                            class="uk-slide-before hvr-grow">
+                                            <img src="{{asset('images/market_segments/market_sub_seg_2.png')}}"
+                                                 draggable="true">
+                                            <p>market_sub_seg_2</p>
+                                        </li>
+                                    </a>
+                                    <a href="#" class="slider-li">
+                                        <li data-slider-slide="2"
+                                            class="hvr-grow">
+                                            <img src="{{asset('images/market_segments/market_sub_seg_3.png')}}"
+                                                 draggable="true">
+                                            <p>market_sub_seg_3</p>
+                                        </li>
+                                    </a>
+                                    <a href="#" class="slider-li">
+                                        <li data-slider-slide="3"
+                                            class="uk-slide-after hvr-grow">
+                                            <img src="{{asset('images/market_segments/market_sub_seg_4.png')}}"
+                                                 draggable="true">
+                                            <p>market_sub_seg_4</p>
+                                        </li>
+                                    </a>
+                                    <a href="#" class="slider-li">
+                                        <li data-slider-slide="4"
+                                            class="uk-slide-after hvr-grow">
+                                            <img src="{{asset('images/market_segments/market_sub_seg_5.png')}}"
+                                                 draggable="true">
+                                            <p>market_sub_seg_5</p>
+                                        </li>
+                                    </a>
+                                    <a href="#" class="slider-li">
+                                        <li data-slider-slide="5"
+                                            class="uk-slide-after hvr-grow">
+                                            <img src="{{asset('images/market_segments/market_sub_seg_6.png')}}"
+                                                 draggable="true">
+                                            <p>market_sub_seg_6</p>
                                         </li>
                                     </a>
                                 </ul>

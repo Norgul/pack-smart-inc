@@ -37,6 +37,7 @@
                                     </div>
                                 </div>
 
+                                {{--
                                 <div class="uk-width-medium-1-1 uk-width-large-1-1 marginBottom50">
                                     <div class="button__group">
                                         <a href="{{url('not-set-yet')}}"
@@ -45,6 +46,7 @@
                                         </a>
                                     </div>
                                 </div>
+                                --}}
                             </div>
                         </div>
                         <div class="uk-width-medium-1-3 uk-width-large-1-3 uk-hidden-small">

@@ -35,7 +35,7 @@
                         </div>
                     </div>
                     <div class="button__group">
-                        <a href="{{url('/careers')}}"
+                        <a href="{{url('/solutions')}}"
                            class="uk-button uk-button-razor uk-button-primary">
                             <span class="button__label">more</span>
                         </a>

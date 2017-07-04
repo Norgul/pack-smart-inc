@@ -3,16 +3,16 @@
     <div class="header__left header--desktop">
         <!-- Level 1 navigation -->
         <ul class="navi navi--top uk-list">
-            @foreach($main_menu_categories as $category)
+            @foreach($main_menu_categories->where('parent_id', 0) as $category)
                 <li data-navisecondlevel="{{$category->url_slug}}">
                     <a class="navi-item" href="{{url('/' . $category->url_slug)}}">
-                        <?php $split_array = explode(' ', $category->name, 2); ?>
-                        {{$split_array[0]}}<br> {{$split_array[1]}}
+                        {{$category->name}}
                     </a>
                 </li>
             @endforeach
         </ul>
         <!-- end of Level 1 navigation -->
+        {{--
         <!-- Level 2 navigation -->
         @foreach($main_menu_categories as $category)
             <ul class="navi__level__2 uk-list uk-position-absolute" id="{{$category->url_slug}}">
@@ -37,6 +37,7 @@
             <a href="#"></a>
         </div>
         <!-- end of Level 2 navigation -->
+        --}}
     </div>
 
     <div class="header__right">

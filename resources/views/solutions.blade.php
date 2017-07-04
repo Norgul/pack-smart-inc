@@ -16,23 +16,149 @@
                          data-interval="false">
                         <!-- Carousel indicators -->
                         <ol class="carousel-indicators">
-                            <li data-target="#fade-quote-carousel-left" data-slide-to="0" class="active"></li>
+                            <li data-target="#fade-quote-carousel-left" data-slide-to="0"></li>
                             <li data-target="#fade-quote-carousel-left" data-slide-to="1"></li>
                             <li data-target="#fade-quote-carousel-left" data-slide-to="2"></li>
+                            <li data-target="#fade-quote-carousel-left" data-slide-to="3" class="active"></li>
+                            <li data-target="#fade-quote-carousel-left" data-slide-to="4"></li>
+                            <li data-target="#fade-quote-carousel-left" data-slide-to="5"></li>
+                            <li data-target="#fade-quote-carousel-left" data-slide-to="6"></li>
                         </ol>
                         <!-- Carousel items -->
                         <div class="carousel-inner">
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h3>RP900 Rotary Pick and Place Feeder
+                                        </h3>
+                                    </div>
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Inserting three dimensional products into a high speed production line is
+                                            difficult. At Pack-Smart Inc. we understand your challenges. That is why we
+                                            have developed what is now the industry standard feeding system, the Rotary
+                                            Pick and Place 900 Series. Feeding the world since 1996 the RP900 Series has
+                                            tipped and packed everything from soap, coffee, video games, CD/DVD box
+                                            sets, secure cards and more. This module allows you to accurately place
+                                            varying three dimensional shapes and sizes onto your production line with
+                                            the unprecedented accuracy of ±1.6mm. You can now consistently do this at a
+                                            rate of up to 250 products per minute. That’s 15,000 per hour! The
+                                            articulating suction arms will rotate 360° and can be spaced to accommodate
+                                            a wide range of sizes and with the self-contained, dual-vacuum system you
+                                            can even manage objects weighing up to one pound.
+                                        </p>
+                                        <strong>Features and Specs</strong>
+                                        <p>"Speed: 15,000 u.p.h. <br>
+                                            Placement accuracy: 0.015"" <br>
+                                            Magazine height: 30"" <br>
+                                            Minimum material size: 1.25"" x 1.25"" x 0.01"" <br>
+                                            Maximum material size: 20"" x 9"" x 0.47"" <br>
+                                            Module width: 29.9"" <br>
+                                            Module length: 33.9"" <br>
+                                            Module length: 40.2""" <br>
+                                        </p>
+                                        <strong>Benefits</strong>
+                                        <p>Capable of handling 3dimensional products and placing them with precision
+                                            while maintaining the highest throughputs available.
+                                        </p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p>Automatic bottom alignment module for improved placement accuracy. Inline
+                                            mag-encoding. Built in camera read and verification system.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h3>RPS3000 Reciprocating Pick and Place
+                                        </h3>
+                                    </div>
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>RPS3000 Series Reciprocating Pick and Place module has been designed with versatility and flexibility in mind. The robust design makes is an ideal solution for feeding: trays, leaflets, sachet, clam shells and other odd shaped materials and products. The advantage of using the RPS3000 is the opportunity to automate the slow and costly process of feeding odd shaped objects that may not be able to be fed through a Rotary Placer or conventional feeding applications. With an industry leading 80 C.P.M. (Cycles Per Minute), and multi stream setups the Pack-Smart Intermittent Motion Pick and Place is will reduce manual labour requirements while increasing throughput. Optional Servo drives are available on the RPS3000 to allow for quick integration with third party systems, improved control features, and an increased top speed to 90 C.P.M.
+                                        </p>
+                                        <strong>Features and Specs</strong>
+                                        <p>"Speed: 80-90 c.p.m. (cycles per minute) <br>
+                                            Placement accuracy: +-0.02"" <br>
+                                            Magazine height: 30"" <br>
+                                            Drive: 100% servo driven <br>
+                                            Dimensions: Application dependant" <br>
+                                        </p>
+                                        <strong>Benefits</strong>
+                                        <p>Designed for introducing large 3d objects into a production line. Ideal for multi-stream indexing applications.
+                                        </p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p>Multifold, coupons, plastic plates, plastic trays, corrugated trays , styrofoam trays, thermoform trays, foil trays glassine, card stock, plastic cards, sachets, CDs, DVDs, pharmaceutical inserts, injection moulded parts
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h3>SF350 Smart Friction Feeder
+                                        </h3>
+                                    </div>
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Our rugged, flexible, and extremely versatilte feeding modules are essential to any production line. Built with the customer in mind and boasting the most advanced control system on the market Pack-Smart Inc.’s feeding modules are incredibly accurate and efficient with unmatched reliability. Our Pack-Smart Inc. Smart Friction Feeders come with a built in motion controller. Motion controllers are equipped with customizable recipes which provide electronic accuracy to the thousands of an inch. They also have the capability to batch index, follow, and place multiple inserts on one host carrier. Seemless Integration with third party systems. External inputs outputs and RS232 available for quick setup and interface with third part controllers, such as, PLCs or computers. The machined body with hardened drive shafts is designed for 24/7 operation. With precision bearings and quick belt change features Pack-Smart Inc. has provided reliable solutions for the harshest environments.
+                                        </p>
+                                        <strong>Features and Specs</strong>
+                                        <p>"Speed: 1000ft/min <br>
+                                            Placement accuracy: 0.06"" <br>
+                                            Magazine height: 18"" <br>
+                                            Minimum material size: 1"" x 1.5"" x 0.0015"" <br>
+                                            Maximum material size: 20"" x 16"" x 1""" <br>
+                                        </p>
+                                        <strong>Benefits</strong>
+                                        <p>Cost effective, low maintenance, and incredibly reliable for tipping components, and feeding carriers.
+                                        </p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p>"Autoloader up to 3m (10ft)
+                                            Quick integration brackets
+                                            Integrated mag encoding
+                                            Integrated barcode scanner"
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="active item">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h2 style="text-align:right;margin-bottom:20px;">Secure Print and Card
-                                            Packaging</h2>
+                                        <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <h3>Secure Payment, Identification and Telco
-                                        </h3>
+                                        <h3></h3>
                                     </div>
                                     <div class="col-md-4">
                                         PICTURE
@@ -40,44 +166,25 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Pack-Smart’s innovative solutions for the personalization and packaging of
-                                            cards and documents in the Banking, Prepaid Gift Card and SIM Card
-                                            industries are recognized world-wide for an approach that achieves complete
-                                            automation and traceability with 0%-defect manufacturing. We offer systems
-                                            with in-line duplex personalization (ink-Jet, Mag Stripe and Chip Encoding),
-                                            labeling, carrier personalization and multiple fold and closure solutions.
-                                            Our proprietary affixing systems with +/- placement tolerances of .018’’ and
-                                            run speeds of 17,000 UPH (standard CR80 Card) are unmatched in the industry
-                                            and recognized as the true best-in-class solution for speed and accuracy.
-                                        </p>
-                                        <strong>Personalization</strong>
-                                        <p>Duplex DOD with resolutions up to 600dpi  and scratch offs. Multiple
-                                            applications of labels. Mag stripe and chip encoding
-                                        </p>
-                                        <strong>Data Capturing & Tracking</strong>
-                                        <p>Multiple glue and fold configurations.
-                                            Placement accuracy for card and internal package components of .018’’
-                                            Production of multipack (multiple card packages)
-                                            Complete in-line data verification and back-end reporting"
-                                        </p>
-                                        <strong>Security</strong>
-                                        <p>Multiple secure sealing capabilities.  With active and Intelligent Packaging.
-                                            Components Available.
-                                        </p>
+                                        <p></p>
+                                        <strong>Features and Specs</strong>
+                                        <p></p>
+                                        <strong>Benefits</strong>
+                                        <p></p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h2 style="text-align:right;margin-bottom:20px;">Specialty and Print Finishing
-                                            Solutions</h2>
+                                        <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <h3>Direct Mail, Promotional Materials and PIN Mailers
-                                        </h3>
+                                        <h3></h3>
                                     </div>
                                     <div class="col-md-4">
                                         PICTURE
@@ -85,40 +192,25 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>Pack-Smart’s proven modular solutions for print finishing applications can be
-                                            operated as a stand-alone system or integrated into existing manufacturing
-                                            systems and processes. Our solutions are recognized in the direct mail and
-                                            specialty print finishing industries for fully integrating multiple
-                                            processes in a single-pass, single-machine system design. Our end-to-end
-                                            manufacturing solutions for affixing (3D and single-plane), scoring &
-                                            slitting, and folding & gluing with in-line inkjet are recognized as
-                                            world-class solutions for seamless, end-to-end production.
-                                        </p>
-                                        <strong>Speed</strong>
-                                        <p>Process speeds up to 20,000 products per hour.
-
-                                        </p>
-                                        <strong>Accuracy</strong>
-                                        <p>Component placement accuracy up to +-0.02" without sacrificing speed or
-                                            quality.
-                                        </p>
-                                        <strong>Efficiency</strong>
-                                        <p>Maximum efficiency with multi-job capabilities and quick changeovers.
-                                        </p>
+                                        <p></p>
+                                        <strong>Features and Specs</strong>
+                                        <p></p>
+                                        <strong>Benefits</strong>
+                                        <p></p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h2 style="text-align:right;margin-bottom:20px;">Specialty and Premium Packaging
-                                        </h2>
+                                        <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <h3>Rigid Window, Hybrid Window & Transparent Packaging
-                                        </h3>
+                                        <h3></h3>
                                     </div>
                                     <div class="col-md-4">
                                         PICTURE
@@ -126,26 +218,39 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <p>New, retail-ready packaging technology from Pack-Smart enables companies to
-                                            sell more products with less waste and greater profit. Pack-Smart’s proven
-                                            modular solutions for print finishing applications can be operated as
-                                            stand-alone systems or integrated into existing manufacturing systems and
-                                            processes. Our systems are built on a fiber optic network utilizing
-                                            brushless, servo motor technology and precision motion control designed to
-                                            deliver configurable, end-to-end manufacturing solutions.
-                                        </p>
-                                        <strong>Speed</strong>
-                                        <p>Folding, gluing, and affixing at speeds up to 15,000 products per hour.
-                                        </p>
-                                        <strong>Accuracy</strong>
-                                        <p>Affix rigid and hybrid windows, and multiple components with a placement
-                                            accuracy of 0.02"
-                                        </p>
-                                        <strong>Quality</strong>
-                                        <p>Perform multiple premium packaging jobs with 1 single system. Quick
-                                            changeovers and machine uptimes upwards of 95% allow production facilities
-                                            to produce non-stop high quality products at lower costs.
-                                        </p>
+                                        <p></p>
+                                        <strong>Features and Specs</strong>
+                                        <p></p>
+                                        <strong>Benefits</strong>
+                                        <p></p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h3></h3>
+                                    </div>
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p></p>
+                                        <strong>Features and Specs</strong>
+                                        <p></p>
+                                        <strong>Benefits</strong>
+                                        <p></p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
@@ -157,18 +262,98 @@
                          data-interval="false">
                         <!-- Carousel indicators -->
                         <ol class="carousel-indicators">
-                            <li data-target="#fade-quote-carousel-right" data-slide-to="0" class="active"></li>
+                            <li data-target="#fade-quote-carousel-right" data-slide-to="0"></li>
                             <li data-target="#fade-quote-carousel-right" data-slide-to="1"></li>
                             <li data-target="#fade-quote-carousel-right" data-slide-to="2"></li>
+                            <li data-target="#fade-quote-carousel-right" data-slide-to="3" class="active"></li>
+                            <li data-target="#fade-quote-carousel-right" data-slide-to="4"></li>
+                            <li data-target="#fade-quote-carousel-right" data-slide-to="5"></li>
+                            <li data-target="#fade-quote-carousel-right" data-slide-to="6"></li>
                         </ol>
                         <!-- Carousel items -->
                         <div class="carousel-inner">
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="color:black;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h3></h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p></p>
+                                        <strong>Features and Specs</strong>
+                                        <p></p>
+                                        <strong>Benefits</strong>
+                                        <p></p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="color:black;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h3></h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p></p>
+                                        <strong>Features and Specs</strong>
+                                        <p></p>
+                                        <strong>Benefits</strong>
+                                        <p></p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="color:black;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h3></h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p></p>
+                                        <strong>Features and Specs</strong>
+                                        <p></p>
+                                        <strong>Benefits</strong>
+                                        <p></p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="active item">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h2 style="color:black;margin-bottom:20px;">Active and Intelligent Packaging
-                                            Technologies
-                                        </h2>
+                                        <h2 style="color:black;margin-bottom:20px;">Modular</h2>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -176,128 +361,100 @@
                                         PICTURE
                                     </div>
                                     <div class="col-md-8">
-                                        <p>The Brand Protection landscape has been evolving substantially in the last
-                                            few years, and it continues to do so. The scale and scope of the problem of
-                                            counterfeiting continues to expand, primarily due to two forces that are
-                                            causing a rapid, increasing influx of counterfeit parts into global supply
-                                            chains. Pack-Smart ePedigree Solutions provide assurance to Brand Owners
-                                            through highly integrated performance brand protection technologies:
-                                            On-product anti-counterfeit solutions, Online brand monitoring solutions,
-                                            Consumer-enabled brand protection via smart phone, Tamper evidence
-                                            solutions. Packaging is already one of the most powerful marketing and brand
-                                            protection tools in existence. Pack-Smart has pioneered the development of
-                                            technologies that empower brand and packaging leaders with the control and
-                                            protection they need. Our customers are discovering the benefits of this
-                                            high-tech packaging in the Active and Intelligent Marketplace every day.
-                                        </p>
+                                        <h3></h3>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <strong>Quality</strong>
-                                        <p>Deter grey market products by producing only the highest quality packaging,
-                                            incorporated with Pack-Smart's active and intelligent packaging
-                                            technologies.
-                                        </p>
-                                        <strong>Track and Trace</strong>
-                                        <p>Our systems can be outfitted with data tracking and reporting, vision
-                                            inspection, and state of the art defect detection systems.
-                                        </p>
-                                        <strong>Personalization</strong>
-                                        <p>Pack-Smart systems DOD and printed electronic componentry allow for the
-                                            personalization of each package. Each unique package's data is verified and
-                                            stored for traceability.
-                                        </p>
+                                        <p></p>
+                                        <strong>Features and Specs</strong>
+                                        <p></p>
+                                        <strong>Benefits</strong>
+                                        <p></p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <h2 style="color:black;margin-bottom:20px;">Life Science and Healthcare
-                                            Packaging
+                                        <h2 style="color:black;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h3></h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p></p>
+                                        <strong>Features and Specs</strong>
+                                        <p></p>
+                                        <strong>Benefits</strong>
+                                        <p></p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="color:black;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h3></h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p></p>
+                                        <strong>Features and Specs</strong>
+                                        <p></p>
+                                        <strong>Benefits</strong>
+                                        <p></p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 style="color:black;margin-bottom:20px;">Modular</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        PICTURE
+                                    </div>
+                                    <div class="col-md-8">
+                                        <h3></h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p></p>
+                                        <strong>Features and Specs</strong>
+                                        <p></p>
+                                        <strong>Benefits</strong>
+                                        <p></p>
+                                        <strong>Available Functions/Add-Ons</strong>
+                                        <p></p>
+                                    </div>
+                                </div>
+                            </div>
 
-                                        </h2>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        PICTURE
-                                    </div>
-                                    <div class="col-md-8">
-                                        <h3>Cosmetics, Healthcare & OTC Packaging
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p>Pack-Smart offers revolutionary, configurable equipment and software for the
-                                            Pharmaceutical and Healthcare packaging industry. We enable packaging
-                                            manufacturers to meet ever-growing regulatory requirements while giving them
-                                            the tools to deliver products with an unparalleled shelf presence.
-                                            Value-added capabilities – such as in-line braille embossing and collation
-                                            of booklets, leaflets, and guides – coupled with defect detection make
-                                            Pack-Smart technology the most cost-effective solution available. Our
-                                            systems are built on fiber optic networks utilizing brushless, servo motor
-                                            technology and precision motion control designed to deliver configurable,
-                                            end-to-end manufacturing solutions.
-                                        </p>
-                                        <strong>Speed</strong>
-                                        <p>Kitting and package personalization at speeds upwards of 10,000 products per
-                                            hour.
-                                        </p>
-                                        <strong>Quality</strong>
-                                        <p>Pack-Smart's defect detection and divert systems ensure only 100% verified
-                                            products reach the delivery conveyor.
-                                        </p>
-                                        <strong>Efficiency</strong>
-                                        <p>Multi-component packaging and complex kitting are no match for Pack-Smart's
-                                            automated solutions. All of our processes can be configured into a single
-                                            system, eliminating the need for offline processes.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h2 style="color:black;margin-bottom:20px;">Technical Consulting Services
-                                        </h2>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        PICTURE
-                                    </div>
-                                    <div class="col-md-8">
-                                        <p>As the Pack-Smart team, we are truly many things- we are engineers,
-                                            designers, machinists, builders, entrepreneurs and dreamers. What sets us
-                                            apart from our competition is the ability to look at a challenge and deliver
-                                            a solution that combines the best of what automated technology has to offer
-                                            with innovation and cost effectiveness, delivering the best solutions
-                                            imaginable.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <strong>Speed-to-market</strong>
-                                        <p>With roles in over 70 product launches Pack-Smart can help improve your speed
-                                            to market for your next big launch.
-                                        </p>
-                                        <strong>Technical Consulting Services
-                                        </strong>
-                                        <p>Our technical consulting services are aimed at improving your processes,
-                                            packaging, and overall efficiency
-                                        </p>
-                                        <strong>Full Data Reporting</strong>
-                                        <p>With Pack-Smart's integrated modules and verification systems our customers
-                                            can increase efficiency by collecting data, resolving issues, and reducing
-                                            was
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -315,7 +472,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="col-lg-9">
-                    <p>4x Faster: Our automation solutions run at 4x the industry standard.  We truly are dictating the speed of business.</p>
+                    <p>4x Faster: Our automation solutions run at 4x the industry standard. We truly are dictating the
+                        speed of business.</p>
                 </div>
                 <div class="col-lg-3">
                     picture
@@ -326,7 +484,8 @@
                     picture
                 </div>
                 <div class="col-lg-9">
-                    <p>3x Accuracy: Our solutions have 3x the accuracy when compared to the next closest competitor and we don’t sacrifice on speed.</p>
+                    <p>3x Accuracy: Our solutions have 3x the accuracy when compared to the next closest competitor and
+                        we don’t sacrifice on speed.</p>
                 </div>
             </div>
         </div>
@@ -334,7 +493,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="col-lg-9">
-                    <p>98% Uptime: Our overall equipment effectiveness(OEE) is above world class.  No competitor even comes close to matching our capabilities.</p>
+                    <p>98% Uptime: Our overall equipment effectiveness(OEE) is above world class. No competitor even
+                        comes close to matching our capabilities.</p>
                 </div>
                 <div class="col-lg-3">
                     picture
@@ -345,7 +505,8 @@
                     picture
                 </div>
                 <div class="col-lg-9">
-                    <p>Over 5Bn: Our commitment to speed, accuracy, and efficiency allows us to consistently produce brand changing product volumes.</p>
+                    <p>Over 5Bn: Our commitment to speed, accuracy, and efficiency allows us to consistently produce
+                        brand changing product volumes.</p>
                 </div>
             </div>
         </div>
@@ -378,7 +539,9 @@
 
 
 
-        @maridlcrmn                           */
+
+
+        @maridlcrmn                             */
         /*-------------------------------*/
 
         section {

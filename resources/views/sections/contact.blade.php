@@ -89,7 +89,7 @@
 &lt;br /&gt;
 Best regards
 &lt;br /&gt;
-Your KEBA team" name="successMessage">
+Your PackSmart team" name="successMessage">
                     </form>
                 </div>
                 <div class="  uk-width-medium-1-2 uk-width-large-1-2">

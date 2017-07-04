@@ -269,6 +269,7 @@
                         <h4 class="timeline-title">2015.</h4>
                     </div>
                     <div class="timeline-body">
+                        <img style="max-width: 50%;" src="{{asset('images/about/2015.jpg')}}">                    
                         <p>3rd Place innovative Packaging Company – Packaging Strategies of America</p>
                     </div>
                 </div>
@@ -280,6 +281,7 @@
                         <h4 class="timeline-title">2014.</h4>
                     </div>
                     <div class="timeline-body">
+                        <img style="max-width: 50%;" src="{{asset('images/about/2014.png')}}">                    
                         <p>3rd Place Smart manufacturing of Ontario</p>
                     </div>
                 </div>
@@ -291,6 +293,7 @@
                         <h4 class="timeline-title">2012.</h4>
                     </div>
                     <div class="timeline-body">
+                        <img style="max-width: 50%;" src="{{asset('images/about/2012.jpg')}}">                    
                         <p>Ontario Business Achievement Award</p>
                     </div>
                 </div>
@@ -302,6 +305,7 @@
                         <h4 class="timeline-title">2010.</h4>
                     </div>
                     <div class="timeline-body">
+                        <img style="max-width: 50%;" src="{{asset('images/about/2010.png')}}">                    
                         <p>Sony Green Partner Certification</p>
                     </div>
                 </div>
@@ -313,6 +317,7 @@
                         <h4 class="timeline-title">2008.</h4>
                     </div>
                     <div class="timeline-body">
+                        <img style="max-width: 50%;" src="{{asset('images/about/2008.png')}}">                    
                         <p>Amis Advanced Manufacturing Award</p>
                     </div>
                 </div>
@@ -324,6 +329,7 @@
                         <h4 class="timeline-title">2005.</h4>
                     </div>
                     <div class="timeline-body">
+                        <img style="max-width: 50%;" src="{{asset('images/about/2005.png')}}">                    
                         <p>Pack-Smart moved to new 18 000 SF facility on Milvan Dr.</p>
                     </div>
                 </div>
@@ -335,6 +341,7 @@
                         <h4 class="timeline-title">2001.</h4>
                     </div>
                     <div class="timeline-body">
+                        <img style="max-width: 50%;" src="{{asset('images/about/2001.png')}}">                    
                         <p>RP911 High Speed Servo Drive Pick and Place System is installed</p>
                     </div>
                 </div>
@@ -346,6 +353,7 @@
                         <h4 class="timeline-title">1999.</h4>
                     </div>
                     <div class="timeline-body">
+                        <img style="max-width: 50%;" src="{{asset('images/about/1999.png')}}">                    
                         <p>Pack-Smart is Incorporated , Derek Dlugosh-Ostap acquires Rexdale Tooling Industries</p>
                     </div>
                 </div>
@@ -357,6 +365,7 @@
                         <h4 class="timeline-title">1998.</h4>
                     </div>
                     <div class="timeline-body">
+                        <img style="max-width: 50%;" src="{{asset('images/about/1998.png')}}">                    
                         <p>Prototype of RP910   is developed and tested</p>
                     </div>
                 </div>
@@ -368,6 +377,7 @@
                         <h4 class="timeline-title">1996.</h4>
                     </div>
                     <div class="timeline-body">
+                        <img style="max-width: 50%;" src="{{asset('images/about/1996.png')}}">
                         <p>July Derek Dlugosh-Ostap becomes proprietor of Pack-Smart</p>
                     </div>
                 </div>
@@ -380,7 +390,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3">
-                PICTURE
+                <img src="{{asset('images/about/first_bottom.png')}}">
             </div>
             <div class="col-lg-9">
                 <p>A company doesn’t turn 20 every day. In fact, very few turn 20 at all. The reality is that a large
@@ -415,7 +425,7 @@
 
             </div>
             <div class="col-lg-3">
-                PICTURE
+                <img src="{{asset('images/about/second_bottom.png')}}">
             </div>
         </div>
         <br><br>

@@ -2,12 +2,18 @@
 <div class="header">
     <div class="header__left header--desktop">
         <!-- Level 1 navigation -->
-        <ul class="navi navi--top uk-list">
+        <ul class="new-navi new-navi--top uk-list">
             @foreach($main_menu_categories->where('parent_id', 0) as $category)
-                <li data-navisecondlevel="{{$category->url_slug}}">
-                    <a class="navi-item" href="{{url('/' . $category->url_slug)}}">
-                        {{$category->name}}
-                    </a>
+                <li class="dropdown" data-navisecondlevel="{{$category->url_slug}}">
+                        <a class="new-navi-item" href="{{$category->url_slug}}">{{$category->name}}
+                        </a>        
+                        <ul class="dropdown-content new-nav-2" style="padding-left: 0px;" id="{{$category->url_slug}}">
+                            @foreach($main_menu_categories->where('parent_id', $category->id) as $sub_category)
+                            <li style="height: inherit;text-align: center">
+                                <a class="dropdown-item new-navi-item" style="padding-left: 0px;min-height: 20px;margin-top: 2px;" href="{{$sub_category->url_slug}}">{{$sub_category->name}}</a>
+                            </li>
+                            @endforeach
+                        </ul>
                 </li>
             @endforeach
         </ul>
@@ -15,25 +21,25 @@
         {{--
         <!-- Level 2 navigation -->
         @foreach($main_menu_categories as $category)
-            <ul class="navi__level__2 uk-list uk-position-absolute" id="{{$category->url_slug}}">
+            <ul class="new-navi__level__2 uk-list uk-position-absolute" id="{{$category->url_slug}}">
                 <li data-navisublevelid="{{$category->url_slug}}">
-                    <a class="navi-item" href="{{url('/why-pack-smart')}}">Why Pack-Smart?</a>
+                    <a class="new-navi-item" href="{{url('/why-pack-smart')}}">Why Pack-Smart?</a>
                 </li>
                 <li data-navisublevelid="{{$category->url_slug}}">
-                    <a class="navi-item" href="{{url('/technologies')}}">Technologies</a>
+                    <a class="new-navi-item" href="{{url('/technologies')}}">Technologies</a>
                 </li>
                 <li data-navisublevelid="{{$category->url_slug}}">
-                    <a class="navi-item" href="{{url('/solutions')}}">Solutions</a>
+                    <a class="new-navi-item" href="{{url('/solutions')}}">Solutions</a>
                 </li>
                 <li data-navisublevelid="{{$category->url_slug}}">
-                    <a class="navi-item" href="{{url('/success-stories')}}">Success Stories</a>
+                    <a class="new-navi-item" href="{{url('/success-stories')}}">Success Stories</a>
                 </li>
                 <li data-navisublevelid="{{$category->url_slug}}">
-                    <a class="navi-item" href="{{url('/support')}}">Support</a>
+                    <a class="new-navi-item" href="{{url('/support')}}">Support</a>
                 </li>
             </ul>
         @endforeach
-        <div class="navi--main--item">
+        <div class="new-navi--main--item">
             <a href="#"></a>
         </div>
         <!-- end of Level 2 navigation -->

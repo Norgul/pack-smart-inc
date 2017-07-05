@@ -37,8 +37,8 @@
                                         <h3>RP900 Rotary Pick and Place Feeder
                                         </h3>
                                     </div>
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/modules/RP900 Rotary Pick and Place Feeder Main Image v2.png')}}">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -88,8 +88,8 @@
                                         <h3>RPS3000 Reciprocating Pick and Place
                                         </h3>
                                     </div>
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/modules/RPS3000 Reciprocating Pick and Place.png')}}">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -137,8 +137,8 @@
                                         <h3>SF350 Smart Friction Feeder
                                         </h3>
                                     </div>
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/modules/SF350 Smart Friction Feeder.png')}}">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -189,8 +189,8 @@
                                         <h3>FF500 Friction Feeder
                                         </h3>
                                     </div>
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/modules/FF500 Friction Feeder Main Image v2.png')}}">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -243,8 +243,8 @@
                                         <h3>PG900 Flexo Pattern Gluer
                                         </h3>
                                     </div>
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/modules/PG900 Flexo Pattern Gluer.png')}}">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -300,8 +300,8 @@
                                         <h3>LB250 Label Applicator
                                         </h3>
                                     </div>
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/modules/LB250 Label Applicator v2.png')}}">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -357,8 +357,8 @@
                                         <h3>VC800 Vacuum Transport Conveyor
                                         </h3>
                                     </div>
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/modules/VC800 Vacuum Transport Conveyor v2.png')}}">
                                     </div>
                                 </div>
                                 <div class="row">
@@ -420,8 +420,8 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/technologies/HB924-6 Batching Unit with Inline Wrapping System v2.png')}}">
                                     </div>
                                     <div class="col-md-8">
                                         <h3>The HB924-6 Batching Unit with Inline Wrapping System
@@ -470,8 +470,8 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/technologies/SC500 Secure SIM Card Packaging  v2.png')}}">
                                     </div>
                                     <div class="col-md-8">
                                         <h3>SC500 Secure SIM Card Packaging System
@@ -527,8 +527,8 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/technologies/CP2500-1 Card Personalization System v2.png')}}">
                                     </div>
                                     <div class="col-md-8">
                                         <h3>CP2500-1 Card Personalization System
@@ -584,8 +584,8 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/technologies/IIA-175 Inline Insert Affixing System v2.png')}}">
                                     </div>
                                     <div class="col-md-8">
                                         <h3>IIA-175 Inline Insert Affixing System
@@ -631,8 +631,8 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/technologies/SS-250 Barcode Verfication System v2.png')}}">
                                     </div>
                                     <div class="col-md-8">
                                         <h3>SS-250 Barcode Verification System
@@ -673,8 +673,8 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/technologies/MM-1000 Mega Mailer v2.png')}}">
                                     </div>
                                     <div class="col-md-8">
                                         <h3>MM-1000 Mega Mailer
@@ -737,8 +737,8 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/technologies/WA-800 Window Affixing System.png')}}">
                                     </div>
                                     <div class="col-md-8">
                                         <h3>WA-800 Window Affixing System
@@ -786,8 +786,8 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        PICTURE
+                                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                                        <img src="{{asset('images/solutions/technologies/HS-750 Continuous Motion Heat Sealing System v2.png')}}">
                                     </div>
                                     <div class="col-md-8">
                                         <h3>HS-750 Continuous Motion Heat Sealing System
@@ -826,7 +826,6 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -847,13 +846,13 @@
                     <p>4x Faster: Our automation solutions run at 4x the industry standard. We truly are dictating the
                         speed of business.</p>
                 </div>
-                <div class="col-lg-3">
-                    picture
+                <div class="col-xs34 col-sm-3 col-md-3 col-lg-3 text-center">
+                    <img src="{{asset('images/solutions/4x Faster.jpg')}}">
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="col-lg-3">
-                    picture
+                <div class="col-xs34 col-sm-3 col-md-3 col-lg-3 text-center">
+                    <img src="{{asset('images/solutions/3x Accuracy.jpg')}}">
                 </div>
                 <div class="col-lg-9">
                     <p>3x Accuracy: Our solutions have 3x the accuracy when compared to the next closest competitor and
@@ -868,13 +867,13 @@
                     <p>98% Uptime: Our overall equipment effectiveness(OEE) is above world class. No competitor even
                         comes close to matching our capabilities.</p>
                 </div>
-                <div class="col-lg-3">
-                    picture
+                <div class="col-xs34 col-sm-3 col-md-3 col-lg-3 text-center">
+                    <img src="{{asset('images/solutions/98 Up Time.jpg')}}">
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="col-lg-3">
-                    picture
+                <div class="col-xs34 col-sm-3 col-md-3 col-lg-3 text-center">
+                    <img src="{{asset('images/solutions/Over 5bn.jpg')}}">
                 </div>
                 <div class="col-lg-9">
                     <p>Over 5Bn: Our commitment to speed, accuracy, and efficiency allows us to consistently produce

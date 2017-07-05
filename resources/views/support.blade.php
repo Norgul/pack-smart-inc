@@ -8,14 +8,14 @@
 <div class="container">
     <div class="row">
         <br><br>
-        <div class="col-sm-4 col-md-4 col-lg-4 text-center">
-            <img style="max-width: 300px;" src="{{asset('images/support/engineer.png')}}">                    
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+            <img src="{{asset('images/support/Support_1.png')}}">                    
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 text-center">
-            <img style="max-width: 300px;" src="{{asset('images/support/general-support.png')}}">                    
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+            <img src="{{asset('images/support/Support_2.png')}}">                    
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 text-center">
-            <img style="max-width: 276px;" src="{{asset('images/support/parts.png')}}">                    
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+            <img src="{{asset('images/support/Support_3.png')}}">                    
         </div>
         <br><br>
     </div>
@@ -106,11 +106,12 @@
                             <textarea id="message" name="message" placeholder="Tell us about your project needs and/or goals?" class="uk-width-1-1"
                                         data-parsley-required="true" required></textarea>
                         </div>
-                        <div class="uk-form-row">    
-                            <button class="uk-button uk-button-primary">
-                                    Upload Attachment
-                            </button>   
-                        </div> 
+                        <div class="uk-form-row">
+                            <label for="file-upload" class="uk-button uk-button-primary">
+                                <i class="fa fa-cloud-upload"></i> Upload Attachment
+                            </label>
+                            <input id="file-upload" type="file" name="file" id="file"/>
+                        </div>
                         <button type="submit" form="form659311"
                                 class="uk-button uk-button-primary uk-position-absolute uk-position-bottom-right">
                             <i class="uk-icon-paper-plane-o"></i>
@@ -153,11 +154,12 @@
                             <textarea id="message" name="message" placeholder="General Message Box" class="uk-width-1-1"
                                         data-parsley-required="true" required></textarea>
                         </div>
-                        <div class="uk-form-row">    
-                            <button class="uk-button uk-button-primary">
-                                    Upload Attachment
-                            </button>   
-                        </div>     
+                        <div class="uk-form-row">
+                            <label for="file-upload" class="uk-button uk-button-primary">
+                                <i class="fa fa-cloud-upload"></i> Upload Attachment
+                            </label>
+                            <input id="file-upload" type="file" name="file" id="file"/>
+                        </div>   
                         <button type="submit" form="form659312"
                                 class="uk-button uk-button-primary uk-position-absolute uk-position-bottom-right">
                             <i class="uk-icon-paper-plane-o"></i>

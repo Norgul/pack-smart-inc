@@ -42,6 +42,7 @@ class HomeController extends Controller
 
     public function contact()
     {
+        return redirect('support');
         list($main_menu_categories, $header_categories) = $this->menuImports();
         return view('contact', compact('header_categories', 'main_menu_categories'));
     }

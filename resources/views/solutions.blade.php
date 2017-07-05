@@ -896,31 +896,6 @@
 @section('extra_scripts')
 
     <style>
-        /*-------------------------------*/
-        /*      Code snippet by          */
-        /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        @maridlcrmn                                  */
-        /*-------------------------------*/
-
         section {
             padding-top: 100px;
             padding-bottom: 100px;

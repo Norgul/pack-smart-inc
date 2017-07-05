@@ -24,6 +24,7 @@ class HeaderCategorySeeder extends Seeder
             ['name' => 'Our Markets', 'parent_id' => 1, 'url_slug' => str_slug('Our Markets')],
             ['name' => 'Values & Responsibility', 'parent_id' => 1, 'url_slug' => str_slug('Values & Responsibility')],
             ['name' => 'Purchasing', 'parent_id' => 1, 'url_slug' => str_slug('Purchasing')],
+            ['name' => 'Media', 'parent_id' => 1, 'url_slug' => str_slug('Media')],
 
             // 2.
             ['name' => 'All Technologies', 'parent_id' => 2, 'url_slug' => str_slug(' ')],

@@ -107,6 +107,7 @@
             </div>
         </div>
 
+        {{--
         <div class="uk-grid" data-uk-grid-margin>
             <div class="uk-width-large-1-10"></div>
             <div class="uk-width-large-8-10">
@@ -249,6 +250,7 @@
                 <div class="uk-width-large-1-10"></div>
             </div>
         </div>
+        --}}
     </section>
 
     @include('sections.contact')
@@ -284,5 +286,65 @@
             border-right-color: grey;
         }
     }​
+    </style>
+
+    <style>
+        section {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .quote {
+            color: rgba(0, 0, 0, .1);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /*-------------------------------*/
+        /*    Carousel Fade Transition   */
+        /*-------------------------------*/
+
+        .carousel {
+            padding-bottom: 60px;
+        }
+
+        .carousel .carousel-inner .item {
+            opacity: 0;
+            -webkit-transition-property: opacity;
+            -ms-transition-property: opacity;
+            transition-property: opacity;
+        }
+
+        .carousel .carousel-inner .active {
+            opacity: 1;
+            -webkit-transition-property: opacity;
+            -ms-transition-property: opacity;
+            transition-property: opacity;
+        }
+
+        .carousel .carousel-indicators {
+            bottom: 10px;
+        }
+
+        .carousel .carousel-indicators > li {
+            background-color: #e84a64;
+            border: none;
+        }
+
+        blockquote {
+            text-align: center;
+            border: none;
+        }
+
+        .profile-circle {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            border-radius: 100px;
+        }
     </style>
 @stop

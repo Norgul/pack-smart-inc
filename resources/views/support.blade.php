@@ -9,13 +9,13 @@
     <div class="row">
         <br><br>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
-            <img src="{{asset('images/support/Support_1.png')}}">                    
+            <img src="{{asset('images/support/Support_3.png')}}">
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
             <img src="{{asset('images/support/Support_2.png')}}">                    
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
-            <img src="{{asset('images/support/Support_3.png')}}">                    
+            <img src="{{asset('images/support/Support_1.png')}}">
         </div>
         <br><br>
     </div>

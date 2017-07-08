@@ -24,7 +24,7 @@ class MainMenuCategorySeeder extends Seeder
             ['name' => 'Market Segments', 'url_slug' => str_slug('Market Segments'), 'parent_id' => 0],
             ['name' => 'Technologies', 'url_slug' => str_slug('Technologies'), 'parent_id' => 0],
             ['name' => 'Solutions', 'url_slug' => str_slug('Solutions'), 'parent_id' => 0],
-            ['name' => 'Support', 'url_slug' => str_slug('Support'), 'parent_id' => 0],
+            ['name' => 'Latest News', 'url_slug' => str_slug('Latest News'), 'parent_id' => 0],
             ['name' => 'Contact Us', 'url_slug' => str_slug('Contact'), 'parent_id' => 0],
 
             ['name' => 'Secure Print and Card Packaging', 'url_slug' => str_slug('Secure Print and Card Packaging'), 'parent_id' => 2],

@@ -30,7 +30,7 @@ Route::get('/about', 'HomeController@about');
 Route::get('/contact', 'HomeController@contact');
 Route::get('/market-segments', 'HomeController@market_segments');
 Route::get('/solutions', 'HomeController@solutions');
-Route::get('/support', 'HomeController@support');
+Route::get('/latest-news', 'HomeController@latest_news');
 
 
 /*

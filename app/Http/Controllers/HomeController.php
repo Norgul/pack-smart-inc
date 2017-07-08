@@ -42,9 +42,14 @@ class HomeController extends Controller
 
     public function contact()
     {
-        return redirect('support');
         list($main_menu_categories, $header_categories) = $this->menuImports();
         return view('contact', compact('header_categories', 'main_menu_categories'));
+    }
+
+    public function latest_news()
+    {
+        list($main_menu_categories, $header_categories) = $this->menuImports();
+        return view('latest_news', compact('header_categories', 'main_menu_categories'));
     }
 
     public function market_segments()
@@ -59,15 +64,6 @@ class HomeController extends Controller
         return view('solutions', compact('header_categories', 'main_menu_categories'));
     }
 
-    public function support()
-    {
-        list($main_menu_categories, $header_categories) = $this->menuImports();
-        return view('support', compact('header_categories', 'main_menu_categories'));
-    }
-
-    /**
-     * @return array
-     */
     public function menuImports()
     {
         $main_menu_categories = MainMenuCategory::all();

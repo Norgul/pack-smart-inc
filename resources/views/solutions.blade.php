@@ -28,7 +28,13 @@
                         <div class="carousel-inner">
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-3">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-previous uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-left"
+                                           data-slide-to="6"></a>
+                                    </div>
+                                    <div class="col-md-9">
                                         <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
                                     </div>
                                 </div>
@@ -79,7 +85,13 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-3">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-previous uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-left"
+                                           data-slide-to="0"></a>
+                                    </div>
+                                    <div class="col-md-9">
                                         <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
                                     </div>
                                 </div>
@@ -128,7 +140,13 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-3">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-previous uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-left"
+                                           data-slide-to="1"></a>
+                                    </div>
+                                    <div class="col-md-9">
                                         <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
                                     </div>
                                 </div>
@@ -180,7 +198,13 @@
                             </div>
                             <div class="active item">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-3">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-previous uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-left"
+                                           data-slide-to="2"></a>
+                                    </div>
+                                    <div class="col-md-9">
                                         <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
                                     </div>
                                 </div>
@@ -234,7 +258,13 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-3">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-previous uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-left"
+                                           data-slide-to="3"></a>
+                                    </div>
+                                    <div class="col-md-9">
                                         <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
                                     </div>
                                 </div>
@@ -291,7 +321,13 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-3">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-previous uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-left"
+                                           data-slide-to="4"></a>
+                                    </div>
+                                    <div class="col-md-9">
                                         <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
                                     </div>
                                 </div>
@@ -348,7 +384,13 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-3">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-previous uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-left"
+                                           data-slide-to="5"></a>
+                                    </div>
+                                    <div class="col-md-9">
                                         <h2 style=text-align:right;margin-bottom:20px;">Modular</h2>
                                     </div>
                                 </div>
@@ -415,8 +457,14 @@
                         <div class="carousel-inner">
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    <div class="col-md-9">
+                                        <h2 style="color:black;margin-bottom:20px;">Systems</h2>
+                                    </div>
+                                    <div class="col-md-3" style="text-align: right">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-next uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-right"
+                                           data-slide-to="1"></a>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -465,8 +513,14 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    <div class="col-md-9">
+                                        <h2 style="color:black;margin-bottom:20px;">Systems</h2>
+                                    </div>
+                                    <div class="col-md-3" style="text-align: right">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-next uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-right"
+                                           data-slide-to="2"></a>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -522,8 +576,14 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    <div class="col-md-9">
+                                        <h2 style="color:black;margin-bottom:20px;">Systems</h2>
+                                    </div>
+                                    <div class="col-md-3" style="text-align: right">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-next uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-right"
+                                           data-slide-to="3"></a>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -579,8 +639,14 @@
                             </div>
                             <div class="active item">
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    <div class="col-md-9">
+                                        <h2 style="color:black;margin-bottom:20px;">Systems</h2>
+                                    </div>
+                                    <div class="col-md-3" style="text-align: right">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-next uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-right"
+                                           data-slide-to="4"></a>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -626,8 +692,14 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    <div class="col-md-9">
+                                        <h2 style="color:black;margin-bottom:20px;">Systems</h2>
+                                    </div>
+                                    <div class="col-md-3" style="text-align: right">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-next uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-right"
+                                           data-slide-to="5"></a>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -668,8 +740,14 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    <div class="col-md-9">
+                                        <h2 style="color:black;margin-bottom:20px;">Systems</h2>
+                                    </div>
+                                    <div class="col-md-3" style="text-align: right">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-next uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-right"
+                                           data-slide-to="6"></a>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -732,8 +810,14 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    <div class="col-md-9">
+                                        <h2 style="color:black;margin-bottom:20px;">Systems</h2>
+                                    </div>
+                                    <div class="col-md-3" style="text-align: right">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-next uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-right"
+                                           data-slide-to="7"></a>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -781,8 +865,14 @@
                             </div>
                             <div class="item">
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <h2 style="color:black;margin-bottom:20px;">Technology</h2>
+                                    <div class="col-md-9">
+                                        <h2 style="color:black;margin-bottom:20px;">Systems</h2>
+                                    </div>
+                                    <div class="col-md-3" style="text-align: right">
+                                        <a href="#" style="line-height: 40px"
+                                           class="uk-slidenav uk-slidenav-contrast-labeling uk-slidenav-next uk-slidenav-labeling"
+                                           data-target="#fade-quote-carousel-right"
+                                           data-slide-to="0"></a>
                                     </div>
                                 </div>
                                 <div class="row">

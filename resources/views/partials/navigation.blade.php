@@ -47,10 +47,10 @@
     </div>
 
     <div class="header__right">
-        {{--
+        
         <a href="#" class="hamburger uk-link-muted header--desktop"><span></span></a>
         <a href="#" class="hamburger-mobile uk-link-muted header--mobile"><span></span></a>
-        --}}
+        
         <a href="#" class="search__btn uk-link-muted" data-uk-quicksearch><span></span></a>
         <a href="#" class="globe__btn uk-link-muted"><span></span></a>
         <a href="{{url('/')}}" class="logo">
@@ -60,7 +60,7 @@
     </div>
 </div>
 <div class="uk-clearfix"></div>
-
+{{--
 <!-- HAMBURGER NAV DESKTOP -->
 <div class="hamburger__menu header--desktop">
     <div class="uk-grid">
@@ -80,23 +80,26 @@
         @endforeach
     </div>
 </div>
-
+--}}
 <!-- Mobile HAMBURGER NAV-->
 <div class="hamburger-mobile__menu header--mobile">
     <div class="uk-accordion" data-uk-accordion="{showfirst: false}">
-        @foreach($header_categories as $category)
-            @if($category->parent_id == 0)
-                <h3 class="uk-accordion-title">{{$category->name}}</h3>
+        @foreach($main_menu_categories->where('parent_id', 0) as $category)
+                <a href="{{url($category->url_slug)}}"><h3 class="mobile-nav-title">{{$category->name}}</h3></a>
+                {{-- 
                 <div class="uk-accordion-content">
                     <ul class="uk-nav">
-                        @foreach($header_categories->where('parent_id', $category->id) as $subcategory)
+                        <li class="uk-nav--item">
+                            <a href="{{url($category->url_slug)}}">{{$category->name}} Main page</a>
+                        </li>
+                        @foreach($main_menu_categories->where('parent_id', $category->id) as $subcategory)
                             <li class="uk-nav--item">
                                 <a href="{{url($category->url_slug . '/' . $subcategory->url_slug)}}">{{$subcategory->name}}</a>
                             </li>
                         @endforeach
                     </ul>
                 </div>
-            @endif
+                --}}
         @endforeach
     </div>
 </div>
@@ -116,7 +119,7 @@
     </div>
 </div>
 <div class="uk-clearfix"></div>
-
+{{-- 
 <!-- Mobile MAIN NAVIGATION -->
 <div class="mobilenav mobilenav--subpage header--mobile uk-clearfix">
     <div class="mobilenav__row mobilenav__full uk-clearfix">
@@ -157,3 +160,4 @@
         @endforeach
     </div>
 </div>
+--}}

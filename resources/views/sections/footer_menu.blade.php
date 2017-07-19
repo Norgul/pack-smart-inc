@@ -11,7 +11,7 @@
 
                             <div class="sitemap sitemap--link-breaks uk-margin-top ">
                                 @foreach($header_categories->where('parent_id', $category->id) as $subcategory)
-                                    <a href="{{url($category->url_slug . '/' . $subcategory->url_slug)}}">{{$subcategory->name}}</a>
+                                    <a href="{{url($subcategory->url_slug)}}">{{$subcategory->name}}</a>
                                 @endforeach
                             </div>
                             @endif

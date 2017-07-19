@@ -19,38 +19,38 @@ class HeaderCategorySeeder extends Seeder
             ['name' => 'Contact', 'parent_id' => 0, 'url_slug' => str_slug('Contact')],
 
             // 1.
-            ['name' => 'About Pack-Smart', 'parent_id' => 1, 'url_slug' => str_slug('About Pack-Smart')],
-            ['name' => 'Innovations', 'parent_id' => 1, 'url_slug' => str_slug('Innovations')],
-            ['name' => 'Our Markets', 'parent_id' => 1, 'url_slug' => str_slug('Our Markets')],
-            ['name' => 'Values & Responsibility', 'parent_id' => 1, 'url_slug' => str_slug('Values & Responsibility')],
-            ['name' => 'Purchasing', 'parent_id' => 1, 'url_slug' => str_slug('Purchasing')],
-            ['name' => 'Media', 'parent_id' => 1, 'url_slug' => str_slug('Media')],
+            ['name' => 'About Pack-Smart', 'parent_id' => 1, 'url_slug' => str_slug('About')],
+            //['name' => 'Innovations', 'parent_id' => 1, 'url_slug' => str_slug('Innovations')],
+            //['name' => 'Our Markets', 'parent_id' => 1, 'url_slug' => str_slug('Our Markets')],
+            //['name' => 'Values & Responsibility', 'parent_id' => 1, 'url_slug' => str_slug('Values & Responsibility')],
+            //['name' => 'Purchasing', 'parent_id' => 1, 'url_slug' => str_slug('Purchasing')],
+            //['name' => 'Media', 'parent_id' => 1, 'url_slug' => str_slug('Media')],
 
             // 2.
-            ['name' => 'All Technologies', 'parent_id' => 2, 'url_slug' => str_slug(' ')],
-            ['name' => 'Accuracy Affixing & Alignment', 'parent_id' => 2, 'url_slug' => str_slug('Accuracy Affixing & Alignment')],
-            ['name' => 'Brand Protection', 'parent_id' => 2, 'url_slug' => str_slug('Brand Protection')],
-            ['name' => 'Digital Printing', 'parent_id' => 2, 'url_slug' => str_slug('Digital Printing')],
-            ['name' => 'Feeding & Inserting', 'parent_id' => 2, 'url_slug' => str_slug('Feeding & Inserting')],
+            ['name' => 'All Technologies', 'parent_id' => 2, 'url_slug' => str_slug('Technologies')],
+            //['name' => 'Accuracy Affixing & Alignment', 'parent_id' => 2, 'url_slug' => str_slug('Accuracy Affixing & Alignment')],
+            //['name' => 'Brand Protection', 'parent_id' => 2, 'url_slug' => str_slug('Brand Protection')],
+            //['name' => 'Digital Printing', 'parent_id' => 2, 'url_slug' => str_slug('Digital Printing')],
+            //['name' => 'Feeding & Inserting', 'parent_id' => 2, 'url_slug' => str_slug('Feeding & Inserting')],
 
             // 3.
-            ['name' => 'All Solutions', 'parent_id' => 3, 'url_slug' => str_slug('All Solutions')],
-            ['name' => 'Card Personalization', 'parent_id' => 3, 'url_slug' => str_slug('Card Personalization')],
-            ['name' => 'Rigid Window Packaging', 'parent_id' => 3, 'url_slug' => str_slug('Rigid Window Packaging')],
-            ['name' => 'Secure Packaging', 'parent_id' => 3, 'url_slug' => str_slug('Secure Packaging')],
-            ['name' => 'Serialization Packaging', 'parent_id' => 3, 'url_slug' => str_slug('Serialization Packaging')],
+            ['name' => 'All Solutions', 'parent_id' => 3, 'url_slug' => str_slug('Solutions')],
+            //['name' => 'Card Personalization', 'parent_id' => 3, 'url_slug' => str_slug('Card Personalization')],
+            //['name' => 'Rigid Window Packaging', 'parent_id' => 3, 'url_slug' => str_slug('Rigid Window Packaging')],
+            //['name' => 'Secure Packaging', 'parent_id' => 3, 'url_slug' => str_slug('Secure Packaging')],
+            //['name' => 'Serialization Packaging', 'parent_id' => 3, 'url_slug' => str_slug('Serialization Packaging')],
 
             // 4.
-            ['name' => 'Applications', 'parent_id' => 4, 'url_slug' => str_slug('Applications')],
-            ['name' => 'Success Stories', 'parent_id' => 4, 'url_slug' => str_slug('Success Stories')],
-            ['name' => 'Video Gallery', 'parent_id' => 4, 'url_slug' => str_slug('Video Gallery')],
-            ['name' => 'News', 'parent_id' => 4, 'url_slug' => str_slug('News')],
+            ['name' => 'Latest News', 'parent_id' => 4, 'url_slug' => str_slug('Latest News')],
+            //['name' => 'Success Stories', 'parent_id' => 4, 'url_slug' => str_slug('Success Stories')],
+            //['name' => 'Video Gallery', 'parent_id' => 4, 'url_slug' => str_slug('Video Gallery')],
+            //['name' => 'News', 'parent_id' => 4, 'url_slug' => str_slug('News')],
 
             // 5.
-            ['name' => 'Contact Form', 'parent_id' => 5, 'url_slug' => str_slug('Contact Form')],
-            ['name' => 'Services', 'parent_id' => 5, 'url_slug' => str_slug('Services')],
+            ['name' => 'Contact Us', 'parent_id' => 5, 'url_slug' => str_slug('Contact')],
             ['name' => 'Support', 'parent_id' => 5, 'url_slug' => str_slug('Support')],
-            ['name' => 'Careers', 'parent_id' => 5, 'url_slug' => str_slug('Careers')]
+            //['name' => 'Services', 'parent_id' => 5, 'url_slug' => str_slug('Services')],
+            //['name' => 'Careers', 'parent_id' => 5, 'url_slug' => str_slug('Careers')]
         ]);
     }
 }
